@@ -1,26 +1,25 @@
 # ReferentielAccessibilitePDF
-Référentiel d'évaluation de l'accessibilité des documents au format PDF (RAPDF 1) version 1.0
+PDF Accessibility Assessment Framework (RAPDF 1) version 1.0
 
-le référentiel dd'évaluation de l'accessibilité des documents au format PDF a été élaboré pour servir de socle d’évaluation et d’implémentation pour tous les organismes du secteur public concernés par la [loi luxembourgeoise du 28 mai 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo).
+the PDF Accessibility Assessment Framework has been developed to serve as a basis for evaluation and implementation for all public sector bodies concerned by the [Luxembourg law of 28 May 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo).
 
-Il est disponible à cette adresse : 
-[https://accessibilite.public.lu/fr/rapdf1/](https://accessibilite.public.lu/fr/rapdf1/)
+It is available at this address:
+[https://accessibilite.public.lu/en/rapdf1/](https://accessibilite.public.lu/en/rapdf1/)
 
-Le RAPDF 1 est constitué des documents suivants :
+RAPDF 1 is made up of the following documents:
 
-* [Introduction](introduction.md)
-* [Critères et tests](referentiel-technique.md)
-* [Glossaire](glossaire.md)
-* [Méthodologie](methodologie.md)
-* [Environnement](environnement.md)
-* [Références](references.md)
+* [Introduction](./en/introduction.md)
+* [Criteria and tests](./en/referentiel-technique.md)
+* [Glossary](./en/glossaire.md)
+* [Methodology](./en/methodologie.md)
+* [Environment](./en/environnement.md)
+* [References](./en/references.md)
 
-## Format Markdown
+## Markdown format
 
-L'ensemble des fichiers est mis à disposition au format Markdown, dans une version interprétable par la bibliothèque [markdown-it](https://github.com/markdown-it/markdown-it). 
-Nous avons fait usage d'une extension du format Markdown [markdown-it-attrs](https://github.com/arve0/markdown-it-attrs) qui permet la spécification d'attributs html, ces attributs étant notamment utiles pour les changements de langue. 
+All files are made available in Markdown format, in a version that can be interpreted by the [markdown-it](https://github.com/markdown-it/markdown-it) library.
+We have used an extension of the Markdown format [markdown-it-attrs](https://github.com/arve0/markdown-it-attrs) that allows the specification of HTML attributes, these attributes being particularly useful for language changes.
 
+## License
 
-## Licence
-
-Les contenus de ce référentiel sont édités par le [service information et presse](https://sip.gouvernement.lu) et sont placés sous licence Creative Commons [CC-BY 3.0 LU](https://creativecommons.org/licenses/by/3.0/lu/).
+The content of this repository is edited by the [Information and press service](https://sip.gouvernement.lu) and published under the Creative Commons license [CC-BY 3.0 LU](https://creativecommons.org/licenses/by/3.0/lu/).
