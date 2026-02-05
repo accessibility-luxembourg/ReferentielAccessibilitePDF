@@ -18,9 +18,9 @@ Specific structures include
 
 Form content is covered in an additional theme and reduced to its essential elements.
 
-Evaluating and adapting these elements requires the intervention of specialists and the use of technical software (screen readers, page layout software compatible with the PDF format or the Acrobat Pro work environment).
+Evaluating and adapting these elements requires the intervention of specialists and the use of technical software (page layout software compatible with the PDF format or the Acrobat Pro work environment).
 
-The same applies when the PDF document is produced using specialised software, in particular Desktop Publishing software or a specialised publishing channel, in which case direct reference should be made to standard [EN 301 549 v.3.2.1](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) for Section 10 Non-web documents.
+The same applies when the PDF document is produced using specialised software, in particular Desktop Publishing software or a specialised publishing channel, in which case direct reference should be made to standard [EN 301 549 v.3.2.1](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) for Section 10 Non-web documents*.
 
 ### Non-compliant content types {class="no-summary"}
 
@@ -51,7 +51,7 @@ Only the content of the criteria and tests has normative value.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With PAC 2024
+###### With PAC
 
 1. Open the PDF file.
 2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
@@ -65,7 +65,8 @@ Only the content of the criteria and tests has normative value.
 - WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content):
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1);
     - [PDF4](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF4).
-- EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*.
+- EN 301 549 V3.2.1 (2021-03):  10.1.1.1 Non-text content.
+- PDF/UA-2: 8.3.2 Use of the Artifact structure element, 8.9.2.4.14 Printer’s mark.
 
 #### [Criterion 1.2](#crit-1-2) [A] Does each image [conveying information](glossaire.md#conveying-information) have a [text alternative](glossaire.md#text-alternative)? {id="crit-1-2"}
 - **[Test 1.2.1](#test-1-2-1)** Does each image [conveying information](glossaire.md#conveying-information) satisfy one of these conditions? {id="test-1-2-1"}
@@ -74,7 +75,7 @@ Only the content of the criteria and tests has normative value.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With PAC 2024
+###### With PAC
 
 1. Open the PDF file.
 2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
@@ -87,14 +88,15 @@ Only the content of the criteria and tests has normative value.
 
 - WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content):
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
-- EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*.
+- EN 301 549 V3.2.1 (2021-03): 10.1.1.1 Non-text content.
+- PDF/UA-2: 8.2.5.28.1 Figure semantics, 8.2.5.28.2 Figure properties, 8.4.3 Replacements and alternatives for text, 8.9.2.4.7 Rubber stamp, 8.9.2.4.8 Ink, 8.9.4.2 Alt properties.
 
 #### [Criterion 1.3](#crit-1-3) [A] For each image [conveying information](glossaire.md#conveying-information) with a [text alternative](glossaire.md#text-alternative), is this alternative relevant? {id="crit-1-3"}
 - **[Test 1.3.1](#test-1-3-1)** For each image [conveying information](glossaire.md#conveying-information) with a [text alternative](glossaire.md#text-alternative), is this alternative relevant? {id="test-1-3-1"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With PAC 2024
+###### With PAC
 
 1. Open the PDF file.
 2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
@@ -106,7 +108,8 @@ Only the content of the criteria and tests has normative value.
 
 - WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content):
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
-- EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*.
+- EN 301 549 V3.2.1 (2021-03): 10.1.1.1 Non-text content.
+- PDF/UA-2: 8.2.5.28.1 Figure semantics, 8.2.5.28.2 Figure properties, 8.4.3 Replacements and alternatives for text, 8.9.2.4.7 Rubber stamp, 8.9.2.4.8 Ink, 8.9.4.2 Alt properties.
 
 #### [Criterion 1.4](#crit-1-4) [A] Does each image [conveying information](glossaire.md#conveying-information) have, where necessary, a [detailed description](glossaire.md#detailed-description)? {id="crit-1-4"}
 - **[Test 1.4.1](#test-1-4-1)** Does each image [conveying information](glossaire.md#conveying-information) that requires a [detailed description](glossaire.md#detailed-description) satisfy one of these conditions? {id="test-1-4-1"}
@@ -115,7 +118,7 @@ Only the content of the criteria and tests has normative value.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With PAC 2024
+###### With PAC
 
 1. Open the PDF file.
 2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
@@ -130,9 +133,10 @@ Only the content of the criteria and tests has normative value.
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1);
     - [G73](https://www.w3.org/WAI/WCAG21/Techniques/general/G73);
     - [G92](https://www.w3.org/WAI/WCAG21/Techniques/general/G92).
-- EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*.
+- EN 301 549 V3.2.1 (2021-03): 10.1.1.1 Non-text content.
+- PDF/UA-2: 8.2.5.27 Caption, 8.9.2.4.7 Rubber stamp, 8.9.2.4.8 Ink, 8.9.4.2 Alt properties.
 
-#### [Criteria 1.5](#crit-1-5) [A] For each image [conveying information](glossaire.md#conveying-information) with a [detailed description](glossaire.md#detailed-description), is this description relevant? {id="crit-1-5"}
+#### [Criterion 1.5](#crit-1-5) [A] For each image [conveying information](glossaire.md#conveying-information) with a [detailed description](glossaire.md#detailed-description), is this description relevant? {id="crit-1-5"}
 - **[Test 1.5.1](#test-1-5-1)** Does each image [conveying information](glossaire.md#conveying-information) with a [detailed description](glossaire.md#detailed-description) satisfy one of these conditions? {id="test-1-5-1"}
     - The [detailed description](glossaire.md#detailed-description) adjacent to the image is relevant.
     - The [detailed description](glossaire.md#detailed-description) available via an adjacent link is relevant.
@@ -152,7 +156,8 @@ Only the content of the criteria and tests has normative value.
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1);
     - [G73](https://www.w3.org/WAI/WCAG21/Techniques/general/G73);
     - [G92](https://www.w3.org/WAI/WCAG21/Techniques/general/G92).
-- EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*.
+- EN 301 549 V3.2.1 (2021-03): 10.1.1.1 Non-text content.
+- PDF/UA-2: 8.9.2.4.7 Rubber stamp, 8.9.2.4.8 Ink, 8.9.4.2 Alt properties.
 
 #### [Criterion 1.6](#crit-1-6) [A] Is each image [legend](glossaire.md#legend), if necessary, correctly linked to the corresponding image? {id="crit-1-6"}
 - **[Test 1.6.1](#test-1-6-1)** Does each [legend](glossaire.md#legend) associated with an image satisfy these conditions? {id="test-1-6-1"}
@@ -161,7 +166,7 @@ Only the content of the criteria and tests has normative value.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With PAC 2024
+###### With PAC
 
 1. Open the PDF file.
 2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
@@ -174,7 +179,7 @@ Only the content of the criteria and tests has normative value.
 
 - WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content):
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
-- EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*.
+- EN 301 549 V3.2.1 (2021-03): 10.1.1.1 Non-text content.
 
 #### [Criterion 1.7](#crit-1-7) [AA] Each [image of text](glossaire.md#image-of-text) [conveying information](glossaire.md#conveying-information), in the absence of an [alternative text version](glossaire.md#alternative-text-version), must be replaced by styled text. Is this rule respected (excluding special cases)? {id="crit-1-7"}
 - **[Test 1.7.1](#test-1-7-1)** Each [image of text](glossaire.md#image-of-text) [conveying information](glossaire.md#conveying-information), in the absence of a [text alternative version](glossaire.md#text-alternative), must be replaced by styled text. Is this rule respected (excluding special cases)? {id="test-1-7-1"}
@@ -186,7 +191,7 @@ In these situations, the criterion does not apply:
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With PAC 2024
+###### With PAC
 
 1. Open the PDF file.
 2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
@@ -201,7 +206,7 @@ In these situations, the criterion does not apply:
 - WCAG 2.1 [1.4.5 Images of text (AA)](https://www.w3.org/TR/WCAG21/#images-of-text):
     - [PDF7](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF7);
     - [G140](https://www.w3.org/WAI/WCAG21/Techniques/general/G140).
-- EN 301 549 V3.2.1 (2021-03): *10.1.4.5 Images of text*.
+- EN 301 549 V3.2.1 (2021-03): 10.1.4.5 Images of text.
 
 
 ### [Topic 2](#topic-2): Colours {id="topic-2"}
@@ -231,8 +236,8 @@ In these situations, the criterion does not apply:
     - [G182](https://www.w3.org/WAI/WCAG21/Techniques/general/G182);
     - [G111](https://www.w3.org/WAI/WCAG21/Techniques/general/G111);
     - [G138](https://www.w3.org/WAI/WCAG21/Techniques/general/G138).
-- EN 301 549 V3.2.1 (2021-03):  *10.1.4.1 Use of color*.
-
+- EN 301 549 V3.2.1 (2021-03): 10.1.4.1 Use of color. 
+- PDF/UA-2: 8.9.2.3 Markup annotations, 8.9.2.4.5 Text markup, 8.9.2.4.16 Watermark, 8.9.2.4.17 Redaction, 8.9.2.4.18 Projection, 8.9.2.4.20 Other.
 
 #### [Criterion 2.2](#crit-2-2) [AA] Is the contrast between the colour of the text and the colour of its background sufficiently high (excluding special cases)? {id="crit-2-2"}
 - **[Test 2.2.1](#test-2-2-1)** For [normal text size](glossaire.md#normal-text-size), does the contrast ratio between the text and its background meet one of these conditions (excluding special cases)?{id="test-2-2-1"}
@@ -264,7 +269,7 @@ In these situations, the criterion does not apply:
 - WCAG 2.1 [1.4.3 Contrast (minimum) (AA)](https://www.w3.org/TR/WCAG21/#contrast-minimum):
     - [G18](https://www.w3.org/WAI/WCAG21/Techniques/general/G18.html);
     - [G145](https://www.w3.org/WAI/WCAG21/Techniques/general/G145.html).
-- EN 301 549 V3.2.1 (2021-03): *10.1.4.3 Contrast (minimum)*.
+- EN 301 549 V3.2.1 (2021-03): 10.1.4.3 Contrast (minimum).
 
 #### [Criterion 2.3](#crit-2-3) [AA] Are the colours used in the graphic elements conveying information sufficiently contrasting (excluding special cases)? {id="crit-2-3"}
 - **[Test 2.3.1](#test-2-3-1)** Does the contrast ratio of each colour required to understand a graphic element with the [adjacent colours](glossaire.md#adjacent-colours), meet one of these conditions (excluding special cases)?{id="test-2-3-1"}
@@ -302,7 +307,8 @@ In these situations, the criterion does not apply:
 - WCAG 2.1 [1.4.11 Non-text contrast (AA)](https://www.w3.org/TR/WCAG21/#non-text-contrast):
     - [G207](https://www.w3.org/WAI/WCAG21/Techniques/general/G207.html);
     - [G209](https://www.w3.org/WAI/WCAG21/Techniques/general/G209.html).
-- EN 301 549 V3.2.1 (2021-03): *10.1.4.11 Non-text contrast*.
+- EN 301 549 V3.2.1 (2021-03): 10.1.4.11 Non-text contrast.
+- PDF/UA-2: 8.9.2.4.13 Widget.
 
 ### [Topic 3](#topic-3): Tables {id="topic-3"}
 
@@ -328,7 +334,8 @@ In these situations, the criterion does not apply:
 - WCAG 2.1 [1.3.2 Meaningful sequence (A)](https://www.w3.org/TR/WCAG21/#meaningful-sequence):
     - [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3);
     - [G57](https://www.w3.org/WAI/WCAG21/Techniques/general/G57.html).
-- EN 301 549 V3.2.1 (2021-03): *10.1.3.2 Meaningful sequence*.
+- EN 301 549 V3.2.1 (2021-03): 10.1.3.2 Meaningful sequence.
+- PDF/UA-2: 8.2.3 Logical content order, 8.2.5.26 Table (Table, TR, TH, TD, THead, TBody, TFoot).
 
 #### [Criterion 3.2](#crit-3-2) [A] For each [complex data table](glossaire.md#complex-data-table) with an alternative, is the alternative relevant? {id="crit-3-2"}
 - **[Test 3.2.1](#test-3-2-1)** For each [complex data table](glossaire.md#complex-data-table) with an alternative, is the alternative relevant? {id="test-3-2-1"}
@@ -347,14 +354,15 @@ In these situations, the criterion does not apply:
 - WCAG 2.1 [1.3.2 Meaningful sequence (A)](https://www.w3.org/TR/WCAG21/#meaningful-sequence):
     - [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3);
     - [G57](https://www.w3.org/WAI/WCAG21/Techniques/general/G57.html).
-- EN 301 549 V3.2.1 (2021-03): *10.1.3.2 Meaningful sequence*.
+- EN 301 549 V3.2.1 (2021-03): 10.1.3.2 Meaningful sequence.
+- PDF/UA-2: 8.2.3 Logical content order, 8.2.5.26 Table (Table, TR, TH, TD, THead, TBody, TFoot).
 
 #### [Criterion 3.3](#crit-3-3) [A] For each [data table](glossaire.md#data-table), are the [headers](glossaire.md#header-table) correctly declared? {id="crit-3-3"}
 - **[Test 3.3.1](#test-3-3-1)** For each [data table](glossaire.md#data-table), does each [header](glossaire.md#header-table) use a TH element? {id="test-3-3-1"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With PAC 2024
+###### With PAC
 
 1. Open the PDF file.
 2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
@@ -367,14 +375,15 @@ In these situations, the criterion does not apply:
 - WCAG 2.1 [1.3.1 Info and relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships):
     - [PDF6](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF6);
     - [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3).
-- EN 301 549 V3.2.1 (2021-03):  *10.1.3.1 Info and relationships*.
+- EN 301 549 V3.2.1 (2021-03): 10.1.3.1 Info and relationships.
+- PDF/UA-2: 8.2.5.26 Table (Table, TR, TH, TD, THead, TBody, TFoot).
 
 #### [Criterion 3.4](#crit-3-4) [A] For each [presentation table](glossaire.md#presentation-table), is the [linearised content](glossaire.md#linearised-content) still understandable? {id="crit-3-4"}
 - **[Test 3.4.1](#test-3-4-1)** For each [presentation table](glossaire.md#presentation-table), is the [linearised content](glossaire.md#linearised-content) still understandable? {id="test-3-4-1"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With PAC 2024
+###### With PAC
 
 1. Open the PDF file.
 2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
@@ -386,14 +395,15 @@ In these situations, the criterion does not apply:
 
 - WCAG 2.1 [1.3.2 Meaningful sequence (A)](https://www.w3.org/TR/WCAG21/#meaningful-sequence):
     - [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3).
-- EN 301 549 V3.2.1 (2021-03):  *10.1.3.2 Meaningful sequence*.
+- EN 301 549 V3.2.1 (2021-03): 10.1.3.2 Meaningful sequence.
+- PDF/UA-2: 8.2.3 Logical content order.
 
 #### [Criterion 3.5](#crit-3-5) [A] Each [presentation table](glossaire.md#presentation-table) must not use elements specific to [data tables](glossaire.md#data-table), is this rule respected? {id="crit-3-5"}
-- **[Test 3.5.1](#test-3-3-1)** Each [presentation table](glossaire.md#presentation-table) must not use elements specific to [data tables](glossaire.md#data-table) {id="test-3-5-1"}
+- **[Test 3.5.1](#test-3-5-1)** Each [presentation table](glossaire.md#presentation-table) must not use elements specific to [data tables](glossaire.md#data-table) {id="test-3-5-1"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With PAC 2024    
+###### With PAC    
 
 1. Open the PDF file.
 2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
@@ -405,7 +415,7 @@ In these situations, the criterion does not apply:
 
 - WCAG 2.1 [1.3.1 Info and relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships):
     - [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3).
-- EN 301 549 V3.2.1 (2021-03):  *10.1.3.1 Info and relationships*.
+- EN 301 549 V3.2.1 (2021-03): 10.1.3.1 Info and relationships.
 
 ### [Topic 4](#topic-4): Links {id="topic-4"}
 
@@ -418,7 +428,7 @@ In these situations, the criterion does not apply:
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### Test 4.1.1 with Acrobat Reader and PAC 2024
+###### Test 4.1.1 with Acrobat Reader and PAC
 
 1. Open the PDF file with PAC.
 2. Open "Screen reader preview", the content of the file is displayed as it will be rendered, with the element(s) used preceding each content.
@@ -443,7 +453,8 @@ In these situations, the criterion does not apply:
 - WCAG 2.1 [2.4.4 Link purpose (in context) (A)](https://www.w3.org/TR/WCAG21/#link-purpose-in-context):
     - [PDF11](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF11);
     - [PDF13](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF13).
-- EN 301 549 V3.2.1 (2021-03): *10.2.4.4 Link purpose (in context)*.
+- EN 301 549 V3.2.1 (2021-03): 10.2.4.4 Link purpose (in context).
+- PDF/UA-2: 8.9.2.4.2 Link, 8.9.2.4.10 File attachment.
 
 #### [Criterion 4.2](#crit-4-2) [A] Does each [link](glossaire.md#link) have an accessible name? {id="crit-4-2"}
 - **[Test 4.2.1](#test-4-2-1)** Does each [link](glossaire.md#link) image have an accessible name? {id="test-4-2-1"}
@@ -451,7 +462,7 @@ In these situations, the criterion does not apply:
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With PAC 2024    
+###### With PAC    
 
 1. Open the PDF file.
 2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
@@ -467,36 +478,26 @@ In these situations, the criterion does not apply:
     - [PDF11](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF11).
 - WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content):
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
-- EN 301 549 V3.2.1 (2021-03): *10.2.4.4 Link purpose (in context)*, *10.1.1.1 Non-text content*.
+- EN 301 549 V3.2.1 (2021-03): 10.2.4.4 Link purpose (in context), 10.1.1.1 Non-text content.
+- PDF/UA-2: 8.9.2.4.2 Link, 8.9.2.4.10 File attachment.
 
 ### [Topic 5](#topic-5): Information structure {id="topic-5"}
 
 #### [Criterion 5.1](#crit-5-1) [A] Is the information structured by the appropriate use of headings? {id="crit-5-1"}
 - **[Test 5.1.1](#test-5-1-1)** Does each heading use a [heading style](glossaire.md#heading-style)? {id="test-5-1-1"}
-- **[Test 5.1.2](#test-5-1-2)** Where [heading styles](glossaire.md#heading-style) allow, is the [headings hierarchy](glossaire.md#headings-hierarchy) consistent? {id="test-5-1-2"}
+- **[Test 5.1.2](#test-5-1-2)** Where [heading styles](glossaire.md#heading-style) allow, is the [heading hierarchy](glossaire.md#heading-hierarchy) consistent? {id="test-5-1-2"}
 - **[Test 5.1.3](#test-5-1-3)** Is each heading relevant? {id="test-5-1-3"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### Test 5.1.1 with PAC 2024
+###### With PAC
 
 1. Open the PDF file.
 2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
-3. Locate the text passages that should be headings in the original document.
-4. Check in PAC that the heading is presented using an Hx element where x is the heading level, for example H1.
-5. If this is the case, the test is validated.
-
-###### Test 5.1.2 with Acrobat Reader
-
-1. Open the PDF file and consult the table of contents or display the list of headings ("bookmark" icon in the left-hand side panel).
-2. Check that the tree structure is consistent (the proposed tree structure represents the levels of headings).
-3. If this is the case, the test is validated.
-
-###### Test 5.1.3 with Acrobat Reader
-
-1. Open the PDF file and consult the table of contents or display the list of headings ("bookmark" icon in the left-hand side panel).
-2. Check that each heading provides a satisfactory description of the content to which it relates.
-3. If so, the test is validated.
+3. Locate the passages of text that should be headings in the original document and check in PAC that these headings are presented using an Hx element where x is the heading level, for example H1.
+4. Locate all the headings identified in the document and check that the tree structure is consistent (the nesting of heading levels in relation to each other is consistent).
+5. Check that each heading identified in the document adequately describes the content with which it is associated.
+6. If this is the case, the test is validated.
 
 ##### Mapping {class="disclosure mapping"}
 
@@ -504,15 +505,16 @@ In these situations, the criterion does not apply:
     - [PDF9](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF9).
 - WCAG 2.1 [2.4.6 Headings and labels (AA)](https://www.w3.org/TR/WCAG21/#headings-and-labels):
     - [G130](https://www.w3.org/WAI/WCAG21/Techniques/general/G130.html).
-- EN 301 549 V3.2.1 (2021-03): *10.1.3.1 Info and relationships*, *10.2.4.6 Headings and labels*.
+- EN 301 549 V3.2.1 (2021-03): 10.1.3.1 Info and relationships, 10.2.4.6 Headings and labels.
+- PDF/UA-2&nbsp;:  *8.2.5.12 Heading (Hn) and (H).
 
 #### [Criterion 5.2](#crit-5-2) [A] Does all content presented in the form of lists use a [list style](glossaire.md#list-style)? {id="crit-5-2"}
-- **[Test 5.2.1](#test-5-1-1)** Does each piece of content presented as an unordered list use an appropriate [list style](glossaire.md#list-style)? {id="test-5-2-1"}
+- **[Test 5.2.1](#test-5-2-1)** Does each piece of content presented as an unordered list use an appropriate [list style](glossaire.md#list-style)? {id="test-5-2-1"}
 - **[Test 5.2.2](#test-5-2-2)** Where [list styles](glossaire.md#list-style) allow, does each piece of content presented as an ordered list use an appropriate [list style](glossaire.md#list-style)? {id="test-5-2-2"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### Test 5.2.1 with PAC 2024 
+###### Test 5.2.1 with PAC 
 
 1. Open the PDF file.
 2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
@@ -532,15 +534,15 @@ In these situations, the criterion does not apply:
 
 - WCAG 2.1 [1.3.1 Info and relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships):
     - [PDF21](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF21).
-- EN 301 549 V3.2.1 (2021-03):  *10.1.3.1 Info and relationships*.
-
+- EN 301 549 V3.2.1 (2021-03):  10.1.3.1 Info and relationships.
+- PDF/UA-2: 8.2.5.25 List (L, LI, LBody).
 
 #### [Criterion 5.3](#crit-5-3) [A] [Structure elements](glossaire.md#structure-elements) must not be used only for layout purposes, is this rule respected? {id="crit-5-3"}
 - **[Test 5.3.1](#test-5-3-1)** [Structure elements](glossaire.md#structure-elements) must not be used only for layout purposes, does this rule apply? {id="test-5-3-1"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With PAC 2024
+###### With PAC
 
 1. Open the PDF file.
 2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
@@ -554,19 +556,39 @@ In these situations, the criterion does not apply:
 
 - WCAG 2.1 [1.3.1 Info and relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships):
     - [G115](https://www.w3.org/WAI/WCAG21/Techniques/general/G115).
-- EN 301 549 V3.2.1 (2021-03):  *10.1.3.1 Info and relationships*.
+- EN 301 549 V3.2.1 (2021-03):  10.1.3.1 Info and relationships.
+- PDF/UA-2: 8.2.5.11 Paragraph (P), 8.2.5.16 Label (Lbl), 8.2.5.17 Span, 8.2.5.19 Emphasis (Em) and Strong, 8.9.2.4.12 Screen.
+
+#### [Criterion 5.4](#crit-5-4) [A] Is each block quotation correctly indicated? {id="crit-5-4"}
+- **[Test 5.4.1](#test-5-4-1)** Is each block of quotation correctly indicated? {id="test-5-4-1"}
+
+##### Evaluation methodology {class="disclosure methodo"}
+
+###### With PAC
+
+1. Open the PDF file.
+2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
+3. For each block quotation, verify that the block quotation is structured using a BlockQuote element.
+4. If this is the case, the criterion is validated.
+
+##### Mapping {class="disclosure mapping"}
+
+- WCAG 2.1 [1.3.1 Info and relationships (A)](https://www.w3.org/TR/WCAG21/#info-and-relationships):
+    - [G115](https://www.w3.org/WAI/WCAG21/Techniques/general/G115).
+- EN 301 549 V3.2.1 (2021-03):  10.1.3.1 Info and relationships.
+- PDF/UA-2: 8.2.5.7 Block quotation (BlockQuote).
 
 ### [Topic 6](#topic-6): Presentation of information {id="topic-6"}
 
 #### [Criterion 6.1](#crit-6-1) [A] Is the [rendering order](glossaire.md#rendering-order) of the content consistent? {id="crit-6-1"}
 - **[Test 6.1.1](#test-6-1-1)** Is the [rendering order](glossaire.md#rendering-order) of the content consistent? {id="test-6-1-1"}
-- **[Test 6.1.2](#test-6-1-2)** Is the [navigation sequence](glossaire.md#navigation sequence) of the content consistent? {id="test-6-1-2"}
+- **[Test 6.1.2](#test-6-1-2)** Is the [navigation sequence](glossaire.md#navigation-sequence) of the content consistent? {id="test-6-1-2"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With Acrobat Reader and PAC 2024
+###### With Acrobat Reader and PAC
 
-###### Test 6.1.1 with Acrobat Reader and PAC 2024
+###### Test 6.1.1 with Acrobat Reader and PAC
 
 1. Open the PDF file with PAC.
 2. Open "Screen reader preview", the content of the file is displayed as it will be rendered, with the element(s) used preceding each content.
@@ -582,7 +604,7 @@ Note: in most cases, the text zone will be followed immediately in PAC by an emp
 ###### Test 6.1.2 with Acrobat Reader
 1. Open the PDF file.
 2. Use the tab key to scroll through the items that can be tabbed.
-3. Check that the navigation sequence is consistent: the tab items are presented in a logical and consistent order.
+3. Check that the tab order is consistent: the tab items are presented in a logical and consistent order.
 4. If this is the case, the test is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -594,7 +616,8 @@ Note: in most cases, the text zone will be followed immediately in PAC by an emp
 - WCAG 2.1 [2.4.3 Focus order (A)](https://www.w3.org/TR/WCAG21/#focus-order):
     - [PDF3](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3);
     - [G59](https://www.w3.org/WAI/WCAG21/Techniques/general/G59.html).
-- EN 301 549 V3.2.1 (2021-03): *10.1.3.2 Meaningful sequence*, *10.2.1.1 Keyboard*, *10.2.4.3 Focus order*.
+- EN 301 549 V3.2.1 (2021-03): 10.1.3.2 Meaningful sequence, 10.2.1.1 Keyboard, 10.2.4.3 Focus order.
+- PDF/UA-2&nbsp;:  *8.2.3 Logical content order, 8.9.2.4.1 Text, 8.9.2.4.3 Free text, 8.9.2.4.5 Text markup, 8.9.2.4.9 Popup, 8.9.2.4.11 Sound, movie, 8.9.3.2 Association with content, 8.9.3.3 Tab order, 8.10.3.5 Signature fields.
 
 #### [Criterion 6.2](#crit-6-2) [A] Information must not be conveyed solely by [shape, size or location](glossaire.md#indication-conveyed-only-by-shape-size-or-location). Is this rule respected? {id="crit-6-2"}
 - **[Test 6.2.1](#test-6-2-1)** For each change to the character type or style that conveys information, the information must not be conveyed solely by the [shape, size or location](glossaire.md#indication-conveyed-only-by-shape-size-or-location). Is this rule respected? {id="test-6-2-1"}
@@ -623,7 +646,8 @@ Note: in most cases, the text zone will be followed immediately in PAC by an emp
 
 - WCAG 2.1 [1.3.3 Sensory characteristics (A)](https://www.w3.org/TR/WCAG21/#sensory-characteristics):
     - [G96](https://www.w3.org/WAI/WCAG21/Techniques/general/G96.html).
-- EN 301 549 V3.2.1 (2021-03):  *10.1.3.3 Sensory characteristics*.
+- EN 301 549 V3.2.1 (2021-03): 10.1.3.3 Sensory characteristics.
+- PDF/UA-2: 8.9.2.3 Markup annotations, 8.9.2.4.4 Line, square, circle, polygon and polyline, 8.9.2.4.16 Watermark, 8.9.2.4.17 Redaction, 8.9.2.4.18 Projection, 8.9.2.4.20 Other.
 
 #### [Criterion 6.3](#crit-6-3) [A] Is every link, indicated solely by colour and whose [nature is not obvious](glossaire.md#link-whose-nature-is-not-obvious), visible in relation to the surrounding text? {id="crit-6-3"}
 - **[Test 6.3.1](#test-6-3-1)** Does each link, indicated only by colour and whose [nature is not obvious](glossaire.md#link-whose-nature-is-not-obvious), have a contrast ratio greater than or equal to 3:1 with respect to the surrounding text? {id="test-6-3-1"}
@@ -641,33 +665,14 @@ Note: in most cases, the text zone will be followed immediately in PAC by an emp
 
 - WCAG 2.1 [1.4.1 Use of color (A)](https://www.w3.org/TR/WCAG21/#use-of-color):
     - [G183](https://www.w3.org/WAI/WCAG21/Techniques/general/G183.html).
-- EN 301 549 V3.2.1 (2021-03):  *10.1.4.1 Use of color*.
+- EN 301 549 V3.2.1 (2021-03): 10.1.4.1 Use of color
+- PDF/UA-2: 8.9.2.4.5 Text markup, 8.9.2.4.6 Caret
 
 ### [Topic 7](#topic-7): Navigation {id="topic-7"}
 
-#### [Criterion 7.1](#crit-7-1) [AA] Does the document have a [table of contents](glossaire.md#table-of-contents) (excluding special cases)? {id="crit-7-1"}
-- **[Test 7.1.1](#test-7-1-1)** Does the document have a [table of contents](glossaire.md#table-of-contents) (excluding special cases)? {id="test-7-1-1"}
+#### [Criterion 7.1](#crit-7-1) [AA] Obsolete {id="crit-7-1"}
 
-##### Special cases 
-In these situations, the criterion is not applicable:
-- The document consists of just a few pages.
-- The content is not intended to be structured by a headings structure.
-
-##### Evaluation methodology {class="disclosure methodo"}
-
-###### With Acrobat Reader
-
-1. Open the PDF file.
-2. Check that the contents are preceded by a table of contents.
-3. If not, check that there is a table of contents in the left-hand side panel ("bookmark" icon) of Acrobat Reader.
-6. If this is the case, the criterion is validated.
-
-##### Mapping {class="disclosure mapping"}
-
-- WCAG 2.1 [2.4.5 Multiple ways (MA)](https://www.w3.org/TR/WCAG21/#multiple-ways):
-    - [PDF2](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF2);
-    - [G64](https://www.w3.org/WAI/WCAG21/Techniques/general/G64.html).
-- EN 301 549 V3.2.1 (2021-03): no related criteria.
+This criterion had no equivalent in the EN 301 549 standard. It has been removed from the framework.
 
 ### [Topic 8](#topic-8): Mandatory elements {id="topic-8"}
 
@@ -692,7 +697,8 @@ In this case, the criterion is not applicable.
 
 - WCAG 2.1 [2.4.2 Page titled (A)](https://www.w3.org/TR/WCAG21/#page-titled):
     - [PDF18](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF18).
-- EN 301 549 V3.2.1 (2021-03):  *10.2.4.2 Document titled*.
+- EN 301 549 V3.2.1 (2021-03): 10.2.4.2 Document titled.
+- PDF/UA-2&nbsp;:  *8.11.2 Interactive aspects.
 
 #### [Criterion 8.2](#crit-8-2) [A] Is the [document title](glossaire.md#document-title) relevant (except in special cases)? {id="crit-8-2"}
 - **[Test 8.2.1](#test-8-2-1)** Is the [document title](glossaire.md#document-title) relevant (except in special cases)? {id="test-8-2-1"}
@@ -715,7 +721,8 @@ In this case, the criterion is not applicable.
 
 - WCAG 2.1 [2.4.2 Page titled (A)](https://www.w3.org/TR/WCAG21/#page-titled):
     - [PDF18](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF18).
-- EN 301 549 V3.2.1 (2021-03):  *10.2.4.2 Document titled*.
+- EN 301 549 V3.2.1 (2021-03): 10.2.4.2 Document titled.
+- PDF/UA-2: 8.11.2 Interactive aspects.
 
 ### [Topic 9](#topic-9): Consultation {id="topic-9"}
 
@@ -726,7 +733,7 @@ In this case, the criterion is not applicable.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With PAC 2024
+###### With PAC
 
 1. Open the PDF file.
 2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
@@ -740,7 +747,8 @@ In this case, the criterion is not applicable.
 - WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content):
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1);
     - [PDF4](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF4).
-- EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*.
+- EN 301 549 V3.2.1 (2021-03): 10.1.1.1 Non-text content.
+- PDF/UA-2: 8.3.2 Use of the Artifact structure element, 8.9.2.4.14 Printer’s mark.
 
 #### [Criterion 9.2](#crit-9-2) [A] Does each [complex shape](glossaire.md#complex-shape) [conveying information](glossaire.md#conveying-information) have a [text alternative](glossaire.md#text-alternative)? {id="crit-9-2"}
 - **[Test 9.2.1](#test-9-2-1)** Does each [complex shape](glossaire.md#complex-shape) [conveying information](glossaire.md#conveying-information) satisfy one of these conditions? {id="test-9-2-1"}
@@ -749,7 +757,7 @@ In this case, the criterion is not applicable.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With PAC 2024
+###### With PAC
 
 1. Open the PDF file.
 2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
@@ -762,14 +770,15 @@ In this case, the criterion is not applicable.
 
 - WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content):
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
-- EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*.
+- EN 301 549 V3.2.1 (2021-03): 10.1.1.1 Non-text content.
+- PDF/UA-2: 8.2.5.28.1 Figure semantics, 8.2.5.28.2 Figure properties, 8.4.3 Replacements and alternatives for text, 8.5.2 Use of ActualText, 8.9.2.2 Annotations as artifacts, 8.9.2.4.7 Rubber stamp, 8.9.2.4.8 Ink, 8.9.2.4.19 3D and RichMedia, 8.9.4.2 Alt properties.
 
 #### [Criterion 9.3](#crit-9-3) [A] For each [complex shape](glossaire.md#complex-shape) [conveying information](glossaire.md#conveying-information) with a [text alternative](glossaire.md#text-alternative), is this alternative relevant? {id="crit-9-3"}
 - **[Test 9.3.1](#test-9-3-1)** For each [complex shape](glossaire.md#complex-shape) [conveying information](glossaire.md#conveying-information) with a [text alternative](glossaire.md#text-alternative), is this alternative relevant? {id="test-9-3-1"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With PAC 2024
+###### With PAC
 
 1. Open the PDF file.
 2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
@@ -781,7 +790,8 @@ In this case, the criterion is not applicable.
 
 - WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content):
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
-- EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*.
+- EN 301 549 V3.2.1 (2021-03): 10.1.1.1 Non-text content.
+- PDF/UA-2: 8.2.5.28.1 Figure semantics, 8.2.5.28.2 Figure properties, 8.4.3 Replacements and alternatives for text, 8.5.2 Use of ActualText, 8.9.2.4.7 Rubber stamp, 8.9.2.4.8 Ink, 8.9.2.4.19 3D and RichMedia, 8.9.4.2 Alt properties.
 
 #### [Criterion 9.4](#crit-9-4) [A] Does each [complex shape](glossaire.md#complex-shape) [conveying information](glossaire.md#conveying-information) have, where necessary, a [detailed description](glossaire.md#detailed-description)? {id="crit-9-4"}
 - **[Test 9.4.1](#test-9-4-1)** Does each [complex shape](glossaire.md#complex-shape) [conveying information](glossaire.md#conveying-information) that requires a [detailed description](glossaire.md#detailed-description) meet one of these conditions?{id="test-9-4-1"}
@@ -790,7 +800,7 @@ In this case, the criterion is not applicable.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With PAC 2024
+###### With PAC
 
 1. Open the PDF file.
 2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
@@ -803,7 +813,8 @@ In this case, the criterion is not applicable.
 
 - WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content):
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
-- EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*.
+- EN 301 549 V3.2.1 (2021-03): 10.1.1.1 Non-text content.
+- PDF/UA-2: 8.2.5.27 Caption, 8.9.2.4.7 Rubber stamp, 8.9.2.4.8 Ink, 8.9.2.4.19 3D and RichMedia, 8.9.4.2 Alt properties.
 
 #### [Criterion 9.5](#crit-9-5) [A] For each [complex shape](glossaire.md#complex-shape) [conveying information](glossaire.md#conveying-information) with a [detailed description](glossaire.md#detailed-description), is this description relevant? {id="crit-9-5"}
 - **[Test 9.5.1](#test-9-5-1)** Does each [complex shape](glossaire.md#complex-shape) [conveying information](glossaire.md#conveying-information) with a [detailed description](glossaire.md#detailed-description) meet one of these conditions?{id="test-9-5-1"}
@@ -823,7 +834,8 @@ In this case, the criterion is not applicable.
 
 - WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content):
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
-- EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*.
+- EN 301 549 V3.2.1 (2021-03): 10.1.1.1 Non-text content.
+- PDF/UA-2: 8.9.2.4.7 Rubber stamp, 8.9.2.4.8 Ink, 8.9.2.4.19 3D and RichMedia, 8.9.4.2 Alt properties.
 
 #### [Criterion 9.6](#crit-9-6) [A] Is each [legend](glossaire.md#legend) of [complex shape](glossaire.md#complex-shape), if necessary, correctly linked to the corresponding image? {id="crit-9-6"}
 - **[Test 9.6.1](#test-9-6-1)** Does each [legend](glossaire.md#legend) associated with a [complex shape](glossaire.md#complex-shape) satisfy these conditions? {id="test-9-6-1"}
@@ -832,7 +844,7 @@ In this case, the criterion is not applicable.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With PAC 2024
+###### With PAC
 
 1. Open the PDF file.
 2. Open "Screen reader preview", the contents of the file are displayed as they will be rendered, with the element(s) used preceding each content.
@@ -845,7 +857,8 @@ In this case, the criterion is not applicable.
 
 - WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content);
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
-- EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*.
+- EN 301 549 V3.2.1 (2021-03): 10.1.1.1 Non-text content.
+- PDF/UA-2: 8.9.2.4.19 3D and RichMedia.
 
 #### [Criterion 9.7](#crit-9-7) [A] Does each [cryptic content](glossaire.md#cryptic-content) (ASCII art, emoticon, cryptic syntax) have an alternative? {id="crit-9-7"}
 - **[Test 9.7.1](#test-9-7-1)** Does each [cryptic content](glossaire.md#cryptic-content) (ASCII art, emoticon, cryptic syntax) have an alternative?{id="test-9-7-1"}
@@ -863,7 +876,8 @@ In this case, the criterion is not applicable.
 
 - WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content);
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
-- EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*.
+- EN 301 549 V3.2.1 (2021-03): 10.1.1.1 Non-text content.
+- PDF/UA-2: 8.2.5.28.1 Figure semantics, 8.2.5.28.2 Figure properties, 8.4.3 Replacements and alternatives for text, 8.9.2.4.7 Rubber stamp, 8.9.2.4.8 Ink.
 
 #### [Criterion 9.8](#crit-9-8) [A] For each [cryptic content](glossaire.md#cryptic-content) (ASCII art, emoticon, cryptic syntax) with an alternative, is this alternative relevant? {id="crit-9-8"}
 - **[Test 9.8.1](#test-9-8-1)** For each [cryptic content](glossaire.md#cryptic-content) (ASCII art, emoticon, cryptic syntax) with an alternative, is this alternative relevant? {id="test-9-8-1"}
@@ -881,7 +895,8 @@ In this case, the criterion is not applicable.
 
 - WCAG 2.1 [1.1.1 Non-text content (A)](https://www.w3.org/TR/WCAG21/#non-text-content);
     - [PDF1](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF1).
-- EN 301 549 V3.2.1 (2021-03):  *10.1.1.1 Non-text content*.
+- EN 301 549 V3.2.1 (2021-03): 10.1.1.1 Non-text content.
+- PDF/UA-2: 8.2.5.28.1 Figure semantics, 8.2.5.28.2 Figure properties, 8.4.3 Replacements and alternatives for text, 8.9.2.4.7 Rubber stamp, 8.9.2.4.8 Ink.
 
 #### [Criterion 9.9](#crit-9-8) [A] Each [blinking or moving content](glossaire.md#blinking-or-moving-content) must have an [activation time](glossaire.md#activation-time) of less than or equal to 5 seconds. Is this rule respected? {id="crit-9-9"}
 - **[Test 9.9.1](#test-9-9-1)** Each [blinking or moving content](glossaire.md#blinking-or-moving-content) must have an [activation time](glossaire.md#activation-time) of less than or equal to 5 seconds. Is this rule respected? {id="test-9-9-1"}
@@ -901,21 +916,15 @@ In this case, the criterion is not applicable.
     - [G4](https://www.w3.org/WAI/WCAG21/Techniques/general/G4.html);
     - [G11](https://www.w3.org/WAI/WCAG21/Techniques/general/G11.html);
     - [G152](https://www.w3.org/WAI/WCAG21/Techniques/general/G152.html).
-- EN 301 549 V3.2.1 (2021-03): *10.2.2 Pause, stop, hide*.
+- EN 301 549 V3.2.1 (2021-03): 10.2.2 Pause, stop, hide.
 
 ### [Topic 10](#topic-10): Interactive form (complementary topic){id="topic-10"} 
-#### Introduction{class=no-summary}
+
 This topic only covers interactive forms filled in with Acrobat Reader.
-PDF forms can only be created using Acrobat Pro or specialised PDF form editing software.
 
-In addition, the testing methodology requires the use of a screen reader.
-For these reasons, this topic has been deliberately isolated to the last part of the framework.
+PDF forms can only be created using Adobe Acrobat Pro, Adobe InDesign or specialised PDF form editing software.
 
-The assessment methodology is based on the screen reader [NVDA](https://www.nvaccess.org/download/), which can be freely installed and used on a Windows computer.
-
-The criteria for this theme aim to check that the form controls (input field, etc.) are correctly rendered to ensure basic accessibility.
-
-However, a test by a person with a disability using his or her own assistive technology is preferable to check:
+In addition to the assessments proposed in this section, testing by a person with disabilities using their own assistive technology is recommended to check:
 - that the PDF form is perfectly usable,
 - that all the input fields can be filled in,
 - and that the user has all the necessary information.
@@ -923,17 +932,18 @@ However, a test by a person with a disability using his or her own assistive tec
 #### [Criterion 10.1](#crit-10-1) [A] Does each [form field](glossaire.md#form-field) have a [label](glossaire.md#label)? {id="crit-10-1"}
 - **[Test 10.1.1](#test-10-1-1)** Does each [form field](glossaire.md#form-field) satisfy these conditions? {id="test-10-1-1"}
     - the [label](glossaire.md#label) is visible;
-    - the [label](glossaire.md#label) is correctly rendered by assistive technologies.
+    - the [label](glossaire.md#label) is accessible to assistive technologies.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With Acrobat Reader and NVDA
+###### With Acrobat Reader
 
-1. Open the PDF file and activate NVDA.
-2. With NVDA, use the tab key to activate each field and check that:
-    - the label is visible;
-    - a name is rendered vocally.
-3. If this is the case, the criterion is validated.
+1. Open the PDF file.
+2. For each form field, check that:
+    - the label is visible in the document;
+    - a tooltip is displayed when hovering over the field.
+3. Check that each field is present.
+4. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
 
@@ -941,21 +951,22 @@ However, a test by a person with a disability using his or her own assistive tec
     - [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html).
  - WCAG 2.1 [4.1.2 Name, role, value (A)](https://www.w3.org/TR/WCAG21/#name-role-value):
     - [PDF12](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF12).
-- EN 301 549 V3.2.1 (2021-03): *10.1.3.1 Info and relationships*, *10.4.1.2 Name, role, value*.
+- EN 301 549 V3.2.1 (2021-03): 10.1.3.1 Info and relationships, 10.4.1.2 Name, role, value.
+- PDF/UA-2: 8.10.2.2 Labels, 8.10.2.3 Contents entry, 8.10.3.2.3 Check boxes and radio buttons, 8.10.3.4 Choice fields.
 
 #### [Criterion 10.2](#crit-10-2) [A] Is each [label](glossaire.md#label) associated with a [form field](glossaire.md#form-field) relevant? {id="crit-10-2"}
 - **[Test 10.2.1](#test-10-2-1)** Does each [label](glossaire.md#label) meet these conditions?{id="test-10-2-1"}
-    - The text of the [label](glossaire.md#label) accessible to assistive technologies is relevant;
-    - The visible text of the [label](glossaire.md#label) is contained in the text accessible to assistive technologies.
+    - The [label](glossaire.md#label) accessible to assistive technologies is relevant;
+    - The visible [label](glossaire.md#label) is contained within the label accessible to assistive technologies.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With Acrobat Reader and NVDA
+###### With Acrobat Reader
 
-1. Open the PDF file and activate NVDA.
-2. With NVDA, use the tab key to activate each field and check that the name is rendered vocally
-    - indicates the exact function of the associated field;
-    - and contains at least the visible label.
+1. Open the PDF file.
+2. For each form field that has a tooltip when hovered over, check that the tooltip content:
+    - provides information about the exact function of the associated field;
+    - contains at least the label visible in the document.
 3. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -967,19 +978,20 @@ However, a test by a person with a disability using his or her own assistive tec
     - [G211](https://www.w3.org/WAI/WCAG21/Techniques/general/G211.html).
 - WCAG 2.1: [3.3.2 Labels or instructions (A)](https://www.w3.org/TR/WCAG21/#labels-or-instructions):
     - [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html).
-- EN 301 549 V3.2.1 (2021-03): *10.2.4.6 Headings and labels*, *10.2.5.3 Label in name*, *10.3.3.2 Labels or instructions*.
+- EN 301 549 V3.2.1 (2021-03): 10.2.4.6 Headings and labels, 10.2.5.3 Label in name, 10.3.3.2 Labels or instructions.
+- PDF/UA-2: 8.10.2.2 Labels, 8.10.2.3 Contents entry, 8.10.3.2.3 Check boxes and radio buttons, 8.10.3.4 Choice fields.
 
 #### [Criterion 10.3](#crit-10-3) [AA] Is every [label](glossaire.md#label) associated with a [form field](glossaire.md#form-field) having the same function and repeated several times in the same document [consistent](glossaire.md#consistent-labels)? {id="crit-10-3"}
 - **[Test 10.3.1](#test-10-3-1)** Is every [label](glossaire.md#label) associated with a [form field](glossaire.md#form-field) having the same function and repeated several times in the same document [consistent](glossaire.md#consistent-labels){id="test-10-3-1"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With Acrobat Reader and NVDA
+###### With Acrobat Reader
 
-1. Open the PDF file and activate NVDA.
+1. Open the PDF file.
 2. Locate in the document the form fields with the same functions.
-3. With NVDA, use the tab key to activate each field and check that the names rendered vocally are consistent with each other.
-4. Check that the visible labels are also consistent.
+3. Check that the contents of the field tooltips are consistent with each other.
+4. Check that the visible labels are also consistent with each other.
 5. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -1004,34 +1016,37 @@ However, a test by a person with a disability using his or her own assistive tec
 - WCAG 2.1 [3.3.2 Labels or instructions (A)](https://www.w3.org/TR/WCAG21/#labels-or-instructions):
     - [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html);
     - [G162](https://www.w3.org/WAI/WCAG21/Techniques/general/G162).
-- EN 301 549 V3.2.1 (2021-03):  *10.3.3.2 Labels or instructions*.
+- EN 301 549 V3.2.1 (2021-03): 10.3.3.2 Labels or instructions.
 
-#### [Criterion 10.5](#crit-10-5) [A] Are the mandatory [form fields](glossaire.md#form-field) correctly identified (excluding special cases)? {id="crit-10-5"}
-- **[Test 10.5.1](#test-10-5-1)** Does each mandatory [form field](glossaire.md#form-field) meet these conditions? {id="test-10-5-1"}
-    - The required nature is visible and explicit.
-    - The required nature is accessible to assistive technologies.
+#### [Criterion 10.5](#crit-10-5) [A] Are the mandatory or optional [form fields](glossaire.md#form-field) correctly identified (excluding special cases)? {id="crit-10-5"}
+- **[Test 10.5.1](#test-10-5-1)** Does each mandatory or optional [form field](glossaire.md#form-field) meet these conditions? {id="test-10-5-1"}
+    - The required or optional nature is visible and explicit.
+    - The required or optional nature is accessible to assistive technologies.
 
-##### Special cases 
-In these situations, the criterion is not applicable:
+##### Special cases
 
-- The form has only one field.
-- Optional fields are indicated
-    - visible and explicit;
-    - in the field label.
+When the form contains only one field, the criterion is not applicable.
 
-If all the fields on a form are mandatory, the criterion remains applicable.
+If all fields in a form are mandatory, the criterion remains applicable.
+
+##### Technical notes
+
+Test 10.5.1 addresses fields independently; however, it must be ensured that the method chosen to alert users (mandatory fields or optional fields) is consistent throughout the form.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With Acrobat Reader and NVDA
+###### With Acrobat Reader
 
-1. Open the PDF file and activate NVDA.
-2. Locate the mandatory fields in the document.
-3. Check that the visual indication is self-explanatory:
-    - it is a text indication (e.g. "mandatory");
-    - or it is a visual indication (e.g. "\*") defined before the form by a text indication (e.g. "Fields preceded by (\*) are mandatory").
-4. With NVDA, use the tab key to activate each field and check that the mandatory nature of the input is rendered vocally.
-5. If this is the case, the criterion is validated.
+1. Open the PDF file.
+2. Use the tab key to exit fields or, if the form allows, submit the form.
+3. Identify fields marked as mandatory in the document.
+4. Check that the mandatory or optional status is clearly indicated:
+    - either by text (e.g. ‘mandatory’);
+    - or by a visual indication (e.g. "\*") defined before the form by a text indication (e.g. ‘Fields preceded by ("\*") are mandatory’).
+5. Check that the indication of whether a field is mandatory or optional is:
+    - visible in the document, prior to form validation;
+    - contained in the tooltip, prior to form validation.
+6. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
 
@@ -1041,25 +1056,25 @@ If all the fields on a form are mandatory, the criterion remains applicable.
     - [PDF5](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF5).
 - WCAG 2.1 [3.3.2 Labels or instructions (A)](https://www.w3.org/TR/WCAG21/#labels-or-instructions):
     - [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html).
-- EN 301 549 V3.2.1 (2021-03):  *10.1.4.1 Use of color*, *10.3.3.1 Error identification*, *10.3.3.2 Labels or instructions*.
+- EN 301 549 V3.2.1 (2021-03): 10.1.4.1 Use of color, 10.3.3.1 Error identification, 10.3.3.2 Labels or instructions.
+- PDF/UA-2: 8.10.2.2 Labels, 8.10.2.3 Contents entry.
 
-#### [Criteria 10.6](#crit-10-6) [A] For each mandatory [form field](glossaire.md#form-field), is the expected data type and/or format available? {id="crit-10-6"}
-- **[Test 10.6.1](#test-10-6-1)** Does each mandatory [form field](glossaire.md#form-field) meet these conditions? {id="test-10-6-1"}
+#### [Criterion 10.6](#crit-10-6) [A] Do the data type and/or format instructions meet these conditions? {id="crit-10-6"}
+- **[Test 10.6.1](#test-10-6-1)** Do the instructions and indications of the mandatory data type and/or format meet these conditions? {id="test-10-6-1"}
     - The data type and/or format is visible.
+    - The data type and/or format is indicated prior to form validation.
     - The data type and/or format is accessible to assistive technologies.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With Acrobat Reader and NVDA
+###### With Acrobat Reader
 
-1. Open the PDF file and activate NVDA.
-2. Locate the mandatory fields in the document.
-3. With NVDA, use the tab key to activate each field.
-4. Fill in the fields with values that are likely to cause input errors (an invalid format for an e-mail address, for example). 
-5. Use the tab key to exit fields or, if the form allows it, to send the form.
-6. For each error message displayed, check that the expected data type and/or format is
-    - indicated by visible text near the field or via an information window;
-    - spoken when the field is activated.
+1. Open the PDF file.
+2. Fill in form fields with values that are likely to cause input errors (e.g. entering an incorrectly formatted email address).
+3. Use the tab key to exit fields or, if the form allows it, to send the form.
+4. For each form field that has an input validation, check that the instruction or indication of the data type
+    - is indicated by means of visible text near the field, prior to form validation;
+    - is contained in the field's tooltip, prior to form validation.
 7. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -1068,7 +1083,8 @@ If all the fields on a form are mandatory, the criterion remains applicable.
     - [PDF22](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF22).
 - WCAG 2.1 [3.3.2 Labels or instructions (A)](https://www.w3.org/TR/WCAG21/#labels-or-instructions):
     - [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html).
-- EN 301 549 V3.2.1 (2021-03):  *10.3.3.1 Error identification*, *10.3.3.2 Labels or instructions*.
+- EN 301 549 V3.2.1 (2021-03): 10.3.3.1 Error identification, 10.3.3.2 Labels or instructions.
+- PDF/UA-2: 8.10.2.2 Labels, 8.10.2.3 Contents entry, 8.10.2.4 TU entry, 8.10.3.2.3 Check boxes and radio buttons, 8.10.3.4 Choice fields.
 
 #### [Criterion 10.7](#crit-10-7) [A] Is each input error message correctly rendered? {id="crit-10-7"}
 - **[Test 10.7.1](#test-10-7-1)** Does each input error message meet these conditions? {id="test-10-7-1"}
@@ -1077,22 +1093,23 @@ If all the fields on a form are mandatory, the criterion remains applicable.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With Acrobat Reader and NVDA
+###### With Acrobat Reader
 
-1. Open the PDF file and activate NVDA.
-2. With NVDA, use the tab key to activate each field.
-3. Fill in fields with values likely to cause input errors (an invalid format for an e-mail address, for example). 
-4. Use the tab key to exit fields or, if the form allows it, to send the form.
-5. For each error message displayed, check that it is
-    - indicated by visible text near the field;
-    - spoken when the field is activated.
+1. Open the PDF file.
+2. Fill in form fields with values that are likely to cause input errors (e.g. entering an incorrectly formatted email address).
+3. Use the tab key to exit fields or, if the form allows it, to send the form.
+4. For each error message displayed, check that it is indicated via an information window.
+5. Otherwise, for each field, check that:
+    -  the error message is indicated by means of text visible in the document near the field;
+    - the tooltip contains information similar to the text visible in the document.
 6. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [3.3.1 Error identification (A)](https://www.w3.org/TR/WCAG21/#error-identification):
     - [PDF22](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF22).
-- EN 301 549 V3.2.1 (2021-03):  *10.3.3.1 Error identification*.
+- EN 301 549 V3.2.1 (2021-03): 10.3.3.1 Error identification.
+- PDF/UA-2: 8.10.2.4 TU entry, 8.10.3.2.3 Check boxes and radio buttons, 8.10.3.4 Choice fields.
 
 #### [Criterion 10.8](#crit-10-8) [AA] Is the [error management](glossaire.md#error-management) accompanied, if necessary, by suggestions for expected data types, formats or values (excluding special cases)? {id="crit-10-8"}
 - **[Test 10.8.1](#test-10-8-1)** Does the [error management](glossaire.md#error-management) meet these conditions? {id="test-10-8-1"}
@@ -1100,41 +1117,40 @@ If all the fields on a form are mandatory, the criterion remains applicable.
     - The input check is accompanied, if necessary, by suggestions for expected values.
 
 ##### Special cases 
-In these situations, the criterion is not applicable:
 
-- The error message is generated automatically by the PDF editing software.
-- The personalisation of error messages requires the use of a script language.
+The criterion is not applicable when the error message is generated automatically by the PDF editing software.
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With Acrobat Reader and NVDA
+###### With Acrobat Reader
 
-1. Open the PDF file and activate NVDA.
-2. With NVDA, use the tab key to activate each field.
-3. Fill in fields with values likely to cause input errors (an invalid format for an e-mail address, for example). 
-4. Use the tab key to exit fields or, if the form allows it, to send the form.
-5. For each error message relating to a data type, format or expected value, check 
-    - that the error message includes an example of a real input (for an email address, check that a real address is indicated based on the "jean.dupont@sample.com" pattern);
-    - that the real input example is played back vocally when the field is activated.
+1. Open the PDF file.
+2. Fill in form fields with values that are likely to cause input errors (e.g. entering an incorrectly formatted email address).
+3. Use the tab key to exit fields or, if the form allows it, to send the form.
+4. For each error message relating to a data type, format or expected value displayed in an information window, check that the error message includes an example of an actual input (for an email address, check that it includes a real address in the format ‘jean.dupont@sample.com’).
+
+5. For each error message relating to a data type, format or expected value specified directly in the document, check 
+    - that it contains an example of a real input (for an email address, check that a real address is mentioned, such as ‘jean.dupont@sample.com’);
+    - that it is visible near the field;
+    - that the tooltip contains information similar to the visible text.
 5. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
 
 - WCAG 2.1 [3.3.3 Error suggestion (AA)](https://www.w3.org/TR/WCAG21/#error-suggestion):
     - [PDF22](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF22).
-- EN 301 549 V3.2.1 (2021-03):  *10.3.3.3 Error suggestion*.
-
+- EN 301 549 V3.2.1 (2021-03): 10.3.3.3 Error suggestion.
+- PDF/UA-2: 8.10.2.4 TU entry, 8.10.3.2.3 Check boxes and radio buttons, 8.10.3.4 Choice fields.
 
 #### [Criterion 10.9](#crit-10-9) [A] Does each form button have a label? {id="crit-10-9"}
 - **[Test 10.9.1](#test-10-9-1)** Does each form button have a label? {id="test-10-9-1"}
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With Acrobat Reader and NVDA
+###### With Acrobat Reader
 
-1. Open the PDF file and activate NVDA.
-2. With NVDA, use the tab key to activate each button.
-3. Check that a label is rendered vocally.
+1. Open the PDF file.
+3. For each form button, check that a tooltip is displayed when hovering over it.
 4. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -1142,7 +1158,8 @@ In these situations, the criterion is not applicable:
     - [PDF10](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF10.html).
 - WCAG 2.1 [4.1.2 Name, role, value (A)](https://www.w3.org/TR/WCAG21/#name-role-value):
     - [G108](https://www.w3.org/WAI/WCAG21/Techniques/general/G108.html).
-- EN 301 549 V3.2.1 (2021-03): *10.4.1.2 Name, role, value*.
+- EN 301 549 V3.2.1 (2021-03): 10.4.1.2 Name, role, value.
+- PDF/UA-2: 8.10.3.2.2 Push-button.
 
 #### [Criterion 10.10](#crit-10-10) [A] Is the label of each form button relevant? {id="crit-10-10"}
 - **[Test 10.10.1](#test-10-10-1)** Does each form button meet these conditions? {id="test-10-10-1"}
@@ -1151,13 +1168,12 @@ In these situations, the criterion is not applicable:
 
 ##### Evaluation methodology {class="disclosure methodo"}
 
-###### With Acrobat Reader and NVDA
+###### With Acrobat Reader
 
-1. Open the PDF file and activate NVDA.
-2. With NVDA, use the tab key to activate each button.
-3. Check that
-    - the voice rendered label is relevant;
-    - the visible text is contained in the voice voice rendered label.
+1. Open the PDF file.
+2. For each form button that has a tooltip when hovered over, check that the tooltip content:
+    - allows the exact function of the button to be understood;
+    - contains at least the label visible in the document.
 4. If this is the case, the criterion is validated.
 
 ##### Mapping {class="disclosure mapping"}
@@ -1168,7 +1184,8 @@ In these situations, the criterion is not applicable:
  - WCAG 2.1: [4.1.2 Name, role, value (A)](https://www.w3.org/TR/WCAG21/#name-role-value):
     - [G108](https://www.w3.org/WAI/WCAG21/Techniques/general/G108.html);
     - [PDF12](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF12.html).
-- EN 301 549 V3.2.1 (2021-03): *10.2.5.3 Label in name*, *10.4.1.2 Name, role, value*.
+- EN 301 549 V3.2.1 (2021-03): 10.2.5.3 Label in name, 10.4.1.2 Name, role, value.
+- PDF/UA-2: 8.10.3.2.2 Push-button.
 
 #### [Criterion 10.11](#crit-10-11) [AA] For each form which modifies or deletes data, or which transmits answers to a test or examination, or whose validation has financial or legal consequences, can the data entered be modified, updated or recovered by the user? {id="crit-10-11"}
 - **[Test 10.11.1](#test-10-11-1)** For each form which modifies or deletes data, or which transmits answers to a test or examination, or whose validation has financial or legal consequences, can the data entered be modified, updated or recovered by the user? {id="test-10-11-1"}
@@ -1193,6 +1210,6 @@ In these situations, the criterion is not applicable:
 - WCAG 2.1 [3.3.4 Error prevention (legal, financial, data) (AA)](https://www.w3.org/TR/WCAG21/#error-prevention-legal-financial-data):
     - [G99](https://www.w3.org/WAI/WCAG21/Techniques/general/G99);
     - [G155](https://www.w3.org/WAI/WCAG21/Techniques/general/G155).
-- EN 301 549 V3.2.1 (2021-03): *10.3.3.4 Error prevention (legal, financial, data)*.
+- EN 301 549 V3.2.1 (2021-03): 10.3.3.4 Error prevention (legal, financial, data).
 
 

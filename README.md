@@ -1,12 +1,12 @@
 # ReferentielAccessibilitePDF
-PDF Accessibility Assessment Framework (RAPDF 1) version 1.0
+PDF Accessibility Assessment Framework (RAPDF) version 1.1
 
 the PDF Accessibility Assessment Framework has been developed to serve as a basis for evaluation and implementation for all public sector bodies concerned by the [Luxembourg law of 28 May 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo).
 
 It is available at this address:
-[https://accessibilite.public.lu/en/rapdf1/](https://accessibilite.public.lu/en/rapdf1/)
+[https://accessibilite.public.lu/en/rapdf1/](https://accessibilite.public.lu/en/rapdf1.1/)
 
-RAPDF 1 is made up of the following documents:
+RAPDF is made up of the following documents:
 
 * [Introduction](./en/introduction.md)
 * [Criteria and tests](./en/referentiel-technique.md)
@@ -14,6 +14,7 @@ RAPDF 1 is made up of the following documents:
 * [Methodology](./en/methodologie.md)
 * [Environment](./en/environnement.md)
 * [References](./en/references.md)
+* [Changelog](./en/notes-de-revision.md)
 
 ## Markdown format
 
