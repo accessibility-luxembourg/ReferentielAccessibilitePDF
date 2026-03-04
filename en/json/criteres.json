@@ -1,0 +1,1472 @@
+{
+  "wcag": {
+    "version": 2.1
+  },
+  "topics": [
+    {
+      "topic": "Graphic elements",
+      "number": "1",
+      "criteria": [
+        {
+          "criterium": {
+            "number": "1",
+            "level": "A",
+            "title": "Is each [decorative image](glossaire.md#decoration) correctly ignored by assistive technologies?",
+            "tests": {
+              "1": [
+                "Does each [decorative image](glossaire.md#decoration) meet one of these conditions",
+                "The image has no alternative.",
+                "The image is [absent from rendering](glossaire.md#absent-from-rendering-decorative-image)."
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.1.1 Non-text content (A)"
+              ],
+              "techniques": [
+                "PDF1",
+                "PDF4"
+              ],
+              "norm": [
+                "10.1.1.1 Non-text content"
+              ],
+              "pdfua": [
+                "8.3.2 Use of the Artifact structure element",
+                "8.9.2.4.14 Printer’s mark"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "2",
+            "level": "A",
+            "title": "Does each image [conveying information](glossaire.md#conveying-information) have a [text alternative](glossaire.md#text-alternative)?",
+            "tests": {
+              "1": [
+                "Does each image [conveying information](glossaire.md#conveying-information) satisfy one of these conditions?",
+                "The image has a text alternative.",
+                "A link adjacent to the image provides access to a text alternative."
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.1.1 Non-text content (A)"
+              ],
+              "techniques": [
+                "PDF1"
+              ],
+              "norm": [
+                "10.1.1.1 Non-text content"
+              ],
+              "pdfua": [
+                "8.2.5.28.1 Figure semantics",
+                "8.2.5.28.2 Figure properties",
+                "8.4.3 Replacements and alternatives for text",
+                "8.9.2.4.7 Rubber stamp",
+                "8.9.2.4.8 Ink",
+                "8.9.4.2 Alt properties"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "3",
+            "level": "A",
+            "title": "For each image [conveying information](glossaire.md#conveying-information) with a [text alternative](glossaire.md#text-alternative), is this alternative relevant?",
+            "tests": {
+              "1": [
+                "For each image [conveying information](glossaire.md#conveying-information) with a [text alternative](glossaire.md#text-alternative), is this alternative relevant?"
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.1.1 Non-text content (A)"
+              ],
+              "techniques": [
+                "PDF1"
+              ],
+              "norm": [
+                "10.1.1.1 Non-text content"
+              ],
+              "pdfua": [
+                "8.2.5.28.1 Figure semantics",
+                "8.2.5.28.2 Figure properties",
+                "8.4.3 Replacements and alternatives for text",
+                "8.9.2.4.7 Rubber stamp",
+                "8.9.2.4.8 Ink",
+                "8.9.4.2 Alt properties"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "4",
+            "level": "A",
+            "title": "Does each image [conveying information](glossaire.md#conveying-information) have, where necessary, a [detailed description](glossaire.md#detailed-description)?",
+            "tests": {
+              "1": [
+                "Does each image [conveying information](glossaire.md#conveying-information) that requires a [detailed description](glossaire.md#detailed-description) satisfy one of these conditions?",
+                "The [detailed description](glossaire.md#detailed-description) is adjacent to the image.",
+                "A link adjacent to the image will take you to the [detailed description](glossaire.md#detailed-description)."
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.1.1 Non-text content (A)"
+              ],
+              "techniques": [
+                "PDF1",
+                "G73",
+                "G92"
+              ],
+              "norm": [
+                "10.1.1.1 Non-text content"
+              ],
+              "pdfua": [
+                "8.2.5.27 Caption",
+                "8.9.2.4.7 Rubber stamp",
+                "8.9.2.4.8 Ink",
+                "8.9.4.2 Alt properties"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "5",
+            "level": "A",
+            "title": "For each image [conveying information](glossaire.md#conveying-information) with a [detailed description](glossaire.md#detailed-description), is this description relevant?",
+            "tests": {
+              "1": [
+                "Does each image [conveying information](glossaire.md#conveying-information) with a [detailed description](glossaire.md#detailed-description) satisfy one of these conditions?",
+                "The [detailed description](glossaire.md#detailed-description) adjacent to the image is relevant.",
+                "The [detailed description](glossaire.md#detailed-description) available via an adjacent link is relevant."
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.1.1 Non-text content (A)"
+              ],
+              "techniques": [
+                "PDF1",
+                "G73",
+                "G92"
+              ],
+              "norm": [
+                "10.1.1.1 Non-text content"
+              ],
+              "pdfua": [
+                "8.9.2.4.7 Rubber stamp",
+                "8.9.2.4.8 Ink",
+                "8.9.4.2 Alt properties"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "6",
+            "level": "A",
+            "title": "Is each image [legend](glossaire.md#legend), if necessary, correctly linked to the corresponding image?",
+            "tests": {
+              "1": [
+                "Does each [legend](glossaire.md#legend) associated with an image satisfy these conditions?",
+                "The [legend](glossaire.md#legend) is adjacent to the image.",
+                "The alternative image contains an [explicit reference](glossaire.md#explicit-reference-to-an-image-caption-or-complex-shape) to the legend."
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.1.1 Non-text content (A)"
+              ],
+              "techniques": [
+                "PDF1"
+              ],
+              "norm": [
+                "10.1.1.1 Non-text content"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "7",
+            "level": "AA",
+            "title": "Each [image of text](glossaire.md#image-of-text) [conveying information](glossaire.md#conveying-information), in the absence of an [alternative text version](glossaire.md#alternative-text-version), must be replaced by styled text. Is this rule respected (excluding special cases)?",
+            "tests": {
+              "1": [
+                "Each [image of text](glossaire.md#image-of-text) [conveying information](glossaire.md#conveying-information), in the absence of a [text alternative version](glossaire.md#text-alternative), must be replaced by styled text. Is this rule respected (excluding special cases)?"
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.4.5 Images of text (AA)"
+              ],
+              "techniques": [
+                "PDF7",
+                "G140"
+              ],
+              "norm": [
+                "10.1.4.5 Images of text"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "topic": "Colours",
+      "number": "2",
+      "criteria": [
+        {
+          "criterium": {
+            "number": "1",
+            "level": "A",
+            "title": "Information must not be [provided by colour only](glossaire.md#information-provided-by-colour-only). Is this rule respected?",
+            "tests": {
+              "1": [
+                "For each word or set of words whose colouring carries information, the information must not be [provided by colour only](glossaire.md#information-provided-by-colour-only). Is this rule respected?"
+              ],
+              "2": [
+                "For each indication of colour given by text, the information must not be [provided by colour only](glossaire.md#information-provided-by-colour-only). Is this rule respected?"
+              ],
+              "3": [
+                "For each image conveying information, the information must not be [provided by colour only](glossaire.md#information-provided-by-colour-only). Is this rule respected?"
+              ],
+              "4": [
+                "For each layout where the colour conveys information, the information must not be [provided by colour only](glossaire.md#information-provided-by-colour-only). Is this rule respected?"
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.4.1 Use of color (A)"
+              ],
+              "techniques": [
+                "G14",
+                "G182",
+                "G111",
+                "G138"
+              ],
+              "norm": [
+                "10.1.4.1 Use of color"
+              ],
+              "pdfua": [
+                "8.9.2.3 Markup annotations",
+                "8.9.2.4.5 Text markup",
+                "8.9.2.4.16 Watermark",
+                "8.9.2.4.17 Redaction",
+                "8.9.2.4.18 Projection",
+                "8.9.2.4.20 Other"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "2",
+            "level": "AA",
+            "title": "Is the contrast between the colour of the text and the colour of its background sufficiently high (excluding special cases)?",
+            "tests": {
+              "1": [
+                "For [normal text size](glossaire.md#normal-text-size), does the contrast ratio between the text and its background meet one of these conditions (excluding special cases)?",
+                "The contrast ratio between the text and its background is at least 4.5:1.",
+                "A [replacement mechanism](glossaire.md#replacement-mechanism-enhanced-contrast) is used to display the text with a contrast ratio of at least 4.5:1."
+              ],
+              "2": [
+                "For [enlarged text](glossaire.md#enlarged-text-size), does the contrast ratio between the text and its background meet one of these conditions (excluding special cases)?",
+                "The contrast ratio between the text and its background is at least 3:1.",
+                "A [replacement mechanism](glossaire.md#replacement-mechanism-enhanced-contrast) is used to display the text with a contrast ratio of at least 3:1."
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.4.3 Contrast (minimum) (AA)"
+              ],
+              "techniques": [
+                "G18",
+                "G145"
+              ],
+              "norm": [
+                "10.1.4.3 Contrast (minimum)"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "3",
+            "level": "AA",
+            "title": "Are the colours used in the graphic elements conveying information sufficiently contrasting (excluding special cases)?",
+            "tests": {
+              "1": [
+                "Does the contrast ratio of each colour required to understand a graphic element with the [adjacent colours](glossaire.md#adjacent-colours), meet one of these conditions (excluding special cases)?",
+                "The contrast ratio is at least 3:1.",
+                "A [replacement mechanism](glossaire.md#replacement-mechanism-enhanced-contrast) allows graphic elements to be displayed with sufficient contrast."
+              ],
+              "2": [
+                "Does the contrast ratio of each colour required to understand a graphic element with the background colour meet one of these conditions (excluding special cases)?",
+                "The contrast ratio is at least 3:1.",
+                "A [replacement mechanism](glossaire.md#replacement-mechanism-enhanced-contrast) allows graphic elements to be displayed with sufficient contrast."
+              ],
+              "3": [
+                "Does the contrast ratio between the colours of a graphic element in its [different states](glossaire.md#different-states-of-a-graphic-element) meet one of these conditions (excluding special cases)?",
+                "The contrast ratio is at least 3:1.",
+                "A [replacement mechanism](glossaire.md#replacement-mechanism-enhanced-contrast) is used to display graphic elements with sufficient contrast."
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.4.11 Non-text contrast (AA)"
+              ],
+              "techniques": [
+                "G207",
+                "G209"
+              ],
+              "norm": [
+                "10.1.4.11 Non-text contrast"
+              ],
+              "pdfua": [
+                "8.9.2.4.13 Widget"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "topic": "Tables",
+      "number": "3",
+      "criteria": [
+        {
+          "criterium": {
+            "number": "1",
+            "level": "A",
+            "title": "Does each [complex data table](glossaire.md#complex-data-table) have an alternative?",
+            "tests": {
+              "1": [
+                "Does each [complex data table](glossaire.md#complex-data-table) satisfy one of these conditions?",
+                "An alternative is adjacent to the table;",
+                "An adjacent anchor provides access to an alternative;",
+                "A link provides access to a document containing an alternative."
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.3.2 Meaningful sequence (A)"
+              ],
+              "techniques": [
+                "PDF3",
+                "G57"
+              ],
+              "norm": [
+                "10.1.3.2 Meaningful sequence"
+              ],
+              "pdfua": [
+                "8.2.3 Logical content order",
+                "8.2.5.26 Table (Table",
+                "TR",
+                "TH",
+                "TD",
+                "THead",
+                "TBody",
+                "TFoot)"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "2",
+            "level": "A",
+            "title": "For each [complex data table](glossaire.md#complex-data-table) with an alternative, is the alternative relevant?",
+            "tests": {
+              "1": [
+                "For each [complex data table](glossaire.md#complex-data-table) with an alternative, is the alternative relevant?"
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.3.2 Meaningful sequence (A)"
+              ],
+              "techniques": [
+                "PDF3",
+                "G57"
+              ],
+              "norm": [
+                "10.1.3.2 Meaningful sequence"
+              ],
+              "pdfua": [
+                "8.2.3 Logical content order",
+                "8.2.5.26 Table (Table",
+                "TR",
+                "TH",
+                "TD",
+                "THead",
+                "TBody",
+                "TFoot)"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "3",
+            "level": "A",
+            "title": "For each [data table](glossaire.md#data-table), are the [headers](glossaire.md#header-table) correctly declared?",
+            "tests": {
+              "1": [
+                "For each [data table](glossaire.md#data-table), does each [header](glossaire.md#header-table) use a TH element?"
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.3.1 Info and relationships (A)"
+              ],
+              "techniques": [
+                "PDF6",
+                "PDF3"
+              ],
+              "norm": [
+                "10.1.3.1 Info and relationships"
+              ],
+              "pdfua": [
+                "8.2.5.26 Table (Table",
+                "TR",
+                "TH",
+                "TD",
+                "THead",
+                "TBody",
+                "TFoot)"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "4",
+            "level": "A",
+            "title": "For each [presentation table](glossaire.md#presentation-table), is the [linearised content](glossaire.md#linearised-content) still understandable?",
+            "tests": {
+              "1": [
+                "For each [presentation table](glossaire.md#presentation-table), is the [linearised content](glossaire.md#linearised-content) still understandable?"
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.3.2 Meaningful sequence (A)"
+              ],
+              "techniques": [
+                "PDF3"
+              ],
+              "norm": [
+                "10.1.3.2 Meaningful sequence"
+              ],
+              "pdfua": [
+                "8.2.3 Logical content order"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "5",
+            "level": "A",
+            "title": "Each [presentation table](glossaire.md#presentation-table) must not use elements specific to [data tables](glossaire.md#data-table), is this rule respected?",
+            "tests": {
+              "1": [
+                "Each [presentation table](glossaire.md#presentation-table) must not use elements specific to [data tables](glossaire.md#data-table)"
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.3.1 Info and relationships (A)"
+              ],
+              "techniques": [
+                "PDF3"
+              ],
+              "norm": [
+                "10.1.3.1 Info and relationships"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "topic": "Links",
+      "number": "4",
+      "criteria": [
+        {
+          "criterium": {
+            "number": "1",
+            "level": "A",
+            "title": "Is each [link](glossaire.md#link) explicit?",
+            "tests": {
+              "1": [
+                "Does each [link](glossaire.md#link) meet one of these conditions?",
+                "The [accessible name of a link](glossaire.md#accessible-name-of-a-link) alone is self-explanatory;",
+                "The [link context](glossaire.md#link-context) makes the link explicit."
+              ],
+              "2": [
+                "Does each [identical link](glossaire.md#identical-accessible-names-of-links) have the same function and destination?"
+              ]
+            },
+            "references": {
+              "wcag": [
+                "2.4.4 Link purpose (in context) (A)"
+              ],
+              "techniques": [
+                "PDF11",
+                "PDF13"
+              ],
+              "norm": [
+                "10.2.4.4 Link purpose (in context)"
+              ],
+              "pdfua": [
+                "8.9.2.4.2 Link",
+                "8.9.2.4.10 File attachment"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "2",
+            "level": "A",
+            "title": "Does each [link](glossaire.md#link) have an accessible name?",
+            "tests": {
+              "1": [
+                "Does each [link](glossaire.md#link) image have an accessible name?"
+              ],
+              "2": [
+                "Does each [link](glossaire.md#link) using a complex shape have an accessible name?"
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.1.1 Non-text content (A)"
+              ],
+              "techniques": [
+                "PDF1"
+              ],
+              "norm": [
+                "10.2.4.4 Link purpose (in context), 10.1.1.1 Non-text content"
+              ],
+              "pdfua": [
+                "8.9.2.4.2 Link",
+                "8.9.2.4.10 File attachment"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "topic": "Information structure",
+      "number": "5",
+      "criteria": [
+        {
+          "criterium": {
+            "number": "1",
+            "level": "A",
+            "title": "Is the information structured by the appropriate use of headings?",
+            "tests": {
+              "1": [
+                "Does each heading use a [heading style](glossaire.md#heading-style)?"
+              ],
+              "2": [
+                "Where [heading styles](glossaire.md#heading-style) allow, is the [heading hierarchy](glossaire.md#heading-hierarchy) consistent?"
+              ],
+              "3": [
+                "Is each heading relevant?"
+              ]
+            },
+            "references": {
+              "wcag": [
+                "2.4.6 Headings and labels (AA)"
+              ],
+              "techniques": [
+                "G130"
+              ],
+              "norm": [
+                "10.1.3.1 Info and relationships, 10.2.4.6 Headings and labels"
+              ],
+              "pdfua": [
+                "*8.2.5.12 Heading (Hn) and (H)"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "2",
+            "level": "A",
+            "title": "Does all content presented in the form of lists use a [list style](glossaire.md#list-style)?",
+            "tests": {
+              "1": [
+                "Does each piece of content presented as an unordered list use an appropriate [list style](glossaire.md#list-style)?"
+              ],
+              "2": [
+                "Where [list styles](glossaire.md#list-style) allow, does each piece of content presented as an ordered list use an appropriate [list style](glossaire.md#list-style)?"
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.3.1 Info and relationships (A)"
+              ],
+              "techniques": [
+                "PDF21"
+              ],
+              "norm": [
+                "10.1.3.1 Info and relationships"
+              ],
+              "pdfua": [
+                "8.2.5.25 List (L",
+                "LI",
+                "LBody)"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "3",
+            "level": "A",
+            "title": "[Structure elements](glossaire.md#structure-elements) must not be used only for layout purposes, is this rule respected?",
+            "tests": {
+              "1": [
+                "[Structure elements](glossaire.md#structure-elements) must not be used only for layout purposes, does this rule apply?"
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.3.1 Info and relationships (A)"
+              ],
+              "techniques": [
+                "G115"
+              ],
+              "norm": [
+                "10.1.3.1 Info and relationships"
+              ],
+              "pdfua": [
+                "8.2.5.11 Paragraph (P)",
+                "8.2.5.16 Label (Lbl)",
+                "8.2.5.17 Span",
+                "8.2.5.19 Emphasis (Em) and Strong",
+                "8.9.2.4.12 Screen"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "4",
+            "level": "A",
+            "title": "Is each block quotation correctly indicated?",
+            "tests": {
+              "1": [
+                "Is each block of quotation correctly indicated?"
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.3.1 Info and relationships (A)"
+              ],
+              "techniques": [
+                "G115"
+              ],
+              "norm": [
+                "10.1.3.1 Info and relationships"
+              ],
+              "pdfua": [
+                "8.2.5.7 Block quotation (BlockQuote)"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "topic": "Presentation of information",
+      "number": "6",
+      "criteria": [
+        {
+          "criterium": {
+            "number": "1",
+            "level": "A",
+            "title": "Is the [rendering order](glossaire.md#rendering-order) of the content consistent?",
+            "tests": {
+              "1": [
+                "Is the [rendering order](glossaire.md#rendering-order) of the content consistent?"
+              ],
+              "2": [
+                "Is the [navigation sequence](glossaire.md#navigation-sequence) of the content consistent?"
+              ]
+            },
+            "references": {
+              "wcag": [
+                "2.4.3 Focus order (A)"
+              ],
+              "techniques": [
+                "PDF3",
+                "G59"
+              ],
+              "norm": [
+                "10.1.3.2 Meaningful sequence, 10.2.1.1 Keyboard, 10.2.4.3 Focus order"
+              ],
+              "pdfua": [
+                "*8.2.3 Logical content order",
+                "8.9.2.4.1 Text",
+                "8.9.2.4.3 Free text",
+                "8.9.2.4.5 Text markup",
+                "8.9.2.4.9 Popup",
+                "8.9.2.4.11 Sound",
+                "movie",
+                "8.9.3.2 Association with content",
+                "8.9.3.3 Tab order",
+                "8.10.3.5 Signature fields"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "2",
+            "level": "A",
+            "title": "Information must not be conveyed solely by [shape, size or location](glossaire.md#indication-conveyed-only-by-shape-size-or-location). Is this rule respected?",
+            "tests": {
+              "1": [
+                "For each change to the character type or style that conveys information, the information must not be conveyed solely by the [shape, size or location](glossaire.md#indication-conveyed-only-by-shape-size-or-location). Is this rule respected?"
+              ],
+              "2": [
+                "For each visual indication conveyed by positioning or the presence of a special character conveying information, the information must not be conveyed solely by [shape, size or location](glossaire.md#indication-conveyed-only-by-shape-size-or-location). Is this rule respected?"
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.3.3 Sensory characteristics (A)"
+              ],
+              "techniques": [
+                "G96"
+              ],
+              "norm": [
+                "10.1.3.3 Sensory characteristics"
+              ],
+              "pdfua": [
+                "8.9.2.3 Markup annotations",
+                "8.9.2.4.4 Line",
+                "square",
+                "circle",
+                "polygon and polyline",
+                "8.9.2.4.16 Watermark",
+                "8.9.2.4.17 Redaction",
+                "8.9.2.4.18 Projection",
+                "8.9.2.4.20 Other"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "3",
+            "level": "A",
+            "title": "Is every link, indicated solely by colour and whose [nature is not obvious](glossaire.md#link-whose-nature-is-not-obvious), visible in relation to the surrounding text?",
+            "tests": {
+              "1": [
+                "Does each link, indicated only by colour and whose [nature is not obvious](glossaire.md#link-whose-nature-is-not-obvious), have a contrast ratio greater than or equal to 3:1 with respect to the surrounding text?"
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.4.1 Use of color (A)"
+              ],
+              "techniques": [
+                "G183"
+              ],
+              "norm": [
+                "10.1.4.1 Use of color"
+              ],
+              "pdfua": [
+                "8.9.2.4.5 Text markup",
+                "8.9.2.4.6 Caret"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "topic": "Navigation",
+      "number": "7",
+      "criteria": [
+        {
+          "criterium": {
+            "number": "1",
+            "level": "AA",
+            "title": "Obsolete",
+            "tests": {},
+            "references": {}
+          }
+        }
+      ]
+    },
+    {
+      "topic": "Mandatory elements",
+      "number": "8",
+      "criteria": [
+        {
+          "criterium": {
+            "number": "1",
+            "level": "A",
+            "title": "Does the document have a [document title](glossaire.md#document-title)?",
+            "tests": {
+              "1": [
+                "Does the document have a [document title](glossaire.md#document-title)?"
+              ]
+            },
+            "references": {
+              "wcag": [
+                "2.4.2 Page titled (A)"
+              ],
+              "techniques": [
+                "PDF18"
+              ],
+              "norm": [
+                "10.2.4.2 Document titled"
+              ],
+              "pdfua": [
+                "*8.11.2 Interactive aspects"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "2",
+            "level": "A",
+            "title": "Is the [document title](glossaire.md#document-title) relevant (except in special cases)?",
+            "tests": {
+              "1": [
+                "Is the [document title](glossaire.md#document-title) relevant (except in special cases)?"
+              ]
+            },
+            "references": {
+              "wcag": [
+                "2.4.2 Page titled (A)"
+              ],
+              "techniques": [
+                "PDF18"
+              ],
+              "norm": [
+                "10.2.4.2 Document titled"
+              ],
+              "pdfua": [
+                "8.11.2 Interactive aspects"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "topic": "Consultation",
+      "number": "9",
+      "criteria": [
+        {
+          "criterium": {
+            "number": "1",
+            "level": "A",
+            "title": "Is each [complex](glossaire.md#complex-shape) [decorative](glossaire.md#decoration) shape correctly ignored by assistive technologies?",
+            "tests": {
+              "1": [
+                "Does each [complex](glossaire.md#complex-shape) [decorative](glossaire.md#decoration) shape satisfy one of these conditions?",
+                "The complex shape has no alternative.",
+                "The complex shape is [absent from rendering](glossaire.md#absent-from-rendering-decorative-image)."
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.1.1 Non-text content (A)"
+              ],
+              "techniques": [
+                "PDF1",
+                "PDF4"
+              ],
+              "norm": [
+                "10.1.1.1 Non-text content"
+              ],
+              "pdfua": [
+                "8.3.2 Use of the Artifact structure element",
+                "8.9.2.4.14 Printer’s mark"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "2",
+            "level": "A",
+            "title": "Does each [complex shape](glossaire.md#complex-shape) [conveying information](glossaire.md#conveying-information) have a [text alternative](glossaire.md#text-alternative)?",
+            "tests": {
+              "1": [
+                "Does each [complex shape](glossaire.md#complex-shape) [conveying information](glossaire.md#conveying-information) satisfy one of these conditions?",
+                "The complex shape has a text alternative.",
+                "A link adjacent to the complex shape provides access to a text alternative."
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.1.1 Non-text content (A)"
+              ],
+              "techniques": [
+                "PDF1"
+              ],
+              "norm": [
+                "10.1.1.1 Non-text content"
+              ],
+              "pdfua": [
+                "8.2.5.28.1 Figure semantics",
+                "8.2.5.28.2 Figure properties",
+                "8.4.3 Replacements and alternatives for text",
+                "8.5.2 Use of ActualText",
+                "8.9.2.2 Annotations as artifacts",
+                "8.9.2.4.7 Rubber stamp",
+                "8.9.2.4.8 Ink",
+                "8.9.2.4.19 3D and RichMedia",
+                "8.9.4.2 Alt properties"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "3",
+            "level": "A",
+            "title": "For each [complex shape](glossaire.md#complex-shape) [conveying information](glossaire.md#conveying-information) with a [text alternative](glossaire.md#text-alternative), is this alternative relevant?",
+            "tests": {
+              "1": [
+                "For each [complex shape](glossaire.md#complex-shape) [conveying information](glossaire.md#conveying-information) with a [text alternative](glossaire.md#text-alternative), is this alternative relevant?"
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.1.1 Non-text content (A)"
+              ],
+              "techniques": [
+                "PDF1"
+              ],
+              "norm": [
+                "10.1.1.1 Non-text content"
+              ],
+              "pdfua": [
+                "8.2.5.28.1 Figure semantics",
+                "8.2.5.28.2 Figure properties",
+                "8.4.3 Replacements and alternatives for text",
+                "8.5.2 Use of ActualText",
+                "8.9.2.4.7 Rubber stamp",
+                "8.9.2.4.8 Ink",
+                "8.9.2.4.19 3D and RichMedia",
+                "8.9.4.2 Alt properties"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "4",
+            "level": "A",
+            "title": "Does each [complex shape](glossaire.md#complex-shape) [conveying information](glossaire.md#conveying-information) have, where necessary, a [detailed description](glossaire.md#detailed-description)?",
+            "tests": {
+              "1": [
+                "Does each [complex shape](glossaire.md#complex-shape) [conveying information](glossaire.md#conveying-information) that requires a [detailed description](glossaire.md#detailed-description) meet one of these conditions?",
+                "The [detailed description](glossaire.md#detailed-description) is adjacent to the complex shape.",
+                "A link adjacent to the complex shape provides access to the [detailed description](glossaire.md#detailed-description)."
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.1.1 Non-text content (A)"
+              ],
+              "techniques": [
+                "PDF1"
+              ],
+              "norm": [
+                "10.1.1.1 Non-text content"
+              ],
+              "pdfua": [
+                "8.2.5.27 Caption",
+                "8.9.2.4.7 Rubber stamp",
+                "8.9.2.4.8 Ink",
+                "8.9.2.4.19 3D and RichMedia",
+                "8.9.4.2 Alt properties"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "5",
+            "level": "A",
+            "title": "For each [complex shape](glossaire.md#complex-shape) [conveying information](glossaire.md#conveying-information) with a [detailed description](glossaire.md#detailed-description), is this description relevant?",
+            "tests": {
+              "1": [
+                "Does each [complex shape](glossaire.md#complex-shape) [conveying information](glossaire.md#conveying-information) with a [detailed description](glossaire.md#detailed-description) meet one of these conditions?",
+                "The [detailed description](glossaire.md#detailed-description) adjacent to the complex shape is relevant.",
+                "The [detailed description](glossaire.md#detailed-description) available via an adjacent link is relevant."
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.1.1 Non-text content (A)"
+              ],
+              "techniques": [
+                "PDF1"
+              ],
+              "norm": [
+                "10.1.1.1 Non-text content"
+              ],
+              "pdfua": [
+                "8.9.2.4.7 Rubber stamp",
+                "8.9.2.4.8 Ink",
+                "8.9.2.4.19 3D and RichMedia",
+                "8.9.4.2 Alt properties"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "6",
+            "level": "A",
+            "title": "Is each [legend](glossaire.md#legend) of [complex shape](glossaire.md#complex-shape), if necessary, correctly linked to the corresponding image?",
+            "tests": {
+              "1": [
+                "Does each [legend](glossaire.md#legend) associated with a [complex shape](glossaire.md#complex-shape) satisfy these conditions?",
+                "The [legend](glossaire.md#legend) is adjacent to the complex shape.",
+                "The alternative of the complex shape contains an [explicit reference](glossaire.md#explicit-reference-to-an-image-caption-or-complex-shape) to the [legend](glossaire.md#legend)."
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.1.1 Non-text content (A)"
+              ],
+              "techniques": [
+                "PDF1"
+              ],
+              "norm": [
+                "10.1.1.1 Non-text content"
+              ],
+              "pdfua": [
+                "8.9.2.4.19 3D and RichMedia"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "7",
+            "level": "A",
+            "title": "Does each [cryptic content](glossaire.md#cryptic-content) (ASCII art, emoticon, cryptic syntax) have an alternative?",
+            "tests": {
+              "1": [
+                "Does each [cryptic content](glossaire.md#cryptic-content) (ASCII art, emoticon, cryptic syntax) have an alternative?"
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.1.1 Non-text content (A)"
+              ],
+              "techniques": [
+                "PDF1"
+              ],
+              "norm": [
+                "10.1.1.1 Non-text content"
+              ],
+              "pdfua": [
+                "8.2.5.28.1 Figure semantics",
+                "8.2.5.28.2 Figure properties",
+                "8.4.3 Replacements and alternatives for text",
+                "8.9.2.4.7 Rubber stamp",
+                "8.9.2.4.8 Ink"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "8",
+            "level": "A",
+            "title": "For each [cryptic content](glossaire.md#cryptic-content) (ASCII art, emoticon, cryptic syntax) with an alternative, is this alternative relevant?",
+            "tests": {
+              "1": [
+                "For each [cryptic content](glossaire.md#cryptic-content) (ASCII art, emoticon, cryptic syntax) with an alternative, is this alternative relevant?"
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.1.1 Non-text content (A)"
+              ],
+              "techniques": [
+                "PDF1"
+              ],
+              "norm": [
+                "10.1.1.1 Non-text content"
+              ],
+              "pdfua": [
+                "8.2.5.28.1 Figure semantics",
+                "8.2.5.28.2 Figure properties",
+                "8.4.3 Replacements and alternatives for text",
+                "8.9.2.4.7 Rubber stamp",
+                "8.9.2.4.8 Ink"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "9",
+            "level": "A",
+            "title": "Each [blinking or moving content](glossaire.md#blinking-or-moving-content) must have an [activation time](glossaire.md#activation-time) of less than or equal to 5 seconds. Is this rule respected?",
+            "tests": {
+              "1": [
+                "Each [blinking or moving content](glossaire.md#blinking-or-moving-content) must have an [activation time](glossaire.md#activation-time) of less than or equal to 5 seconds. Is this rule respected?"
+              ]
+            },
+            "references": {
+              "wcag": [
+                "2.2.2 Pause, stop, hide (A)"
+              ],
+              "techniques": [
+                "G4",
+                "G11",
+                "G152"
+              ],
+              "norm": [
+                "10.2.2 Pause, stop, hide"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "topic": "Interactive form (complementary topic)",
+      "number": "10",
+      "criteria": [
+        {
+          "criterium": {
+            "number": "1",
+            "level": "A",
+            "title": "Does each [form field](glossaire.md#form-field) have a [label](glossaire.md#label)?",
+            "tests": {
+              "1": [
+                "Does each [form field](glossaire.md#form-field) satisfy these conditions?",
+                "the [label](glossaire.md#label) is visible;",
+                "the [label](glossaire.md#label) is accessible to assistive technologies."
+              ]
+            },
+            "references": {
+              "wcag": [
+                "4.1.2 Name, role, value (A)"
+              ],
+              "techniques": [
+                "PDF12"
+              ],
+              "norm": [
+                "10.1.3.1 Info and relationships, 10.4.1.2 Name, role, value"
+              ],
+              "pdfua": [
+                "8.10.2.2 Labels",
+                "8.10.2.3 Contents entry",
+                "8.10.3.2.3 Check boxes and radio buttons",
+                "8.10.3.4 Choice fields"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "2",
+            "level": "A",
+            "title": "Is each [label](glossaire.md#label) associated with a [form field](glossaire.md#form-field) relevant?",
+            "tests": {
+              "1": [
+                "Does each [label](glossaire.md#label) meet these conditions?",
+                "The [label](glossaire.md#label) accessible to assistive technologies is relevant;",
+                "The visible [label](glossaire.md#label) is contained within the label accessible to assistive technologies."
+              ]
+            },
+            "references": {
+              "wcag": [
+                "3.3.2 Labels or instructions (A)"
+              ],
+              "techniques": [
+                "PDF10"
+              ],
+              "norm": [
+                "10.2.4.6 Headings and labels, 10.2.5.3 Label in name, 10.3.3.2 Labels or instructions"
+              ],
+              "pdfua": [
+                "8.10.2.2 Labels",
+                "8.10.2.3 Contents entry",
+                "8.10.3.2.3 Check boxes and radio buttons",
+                "8.10.3.4 Choice fields"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "3",
+            "level": "AA",
+            "title": "Is every [label](glossaire.md#label) associated with a [form field](glossaire.md#form-field) having the same function and repeated several times in the same document [consistent](glossaire.md#consistent-labels)?",
+            "tests": {
+              "1": [
+                "Is every [label](glossaire.md#label) associated with a [form field](glossaire.md#form-field) having the same function and repeated several times in the same document [consistent](glossaire.md#consistent-labels)"
+              ]
+            },
+            "references": {
+              "wcag": [
+                "3.2.4 Consistent identification (AA)"
+              ],
+              "techniques": [
+                "G197"
+              ],
+              "norm": [
+                "no related criteria"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "4",
+            "level": "A",
+            "title": "Are each [label](glossaire.md#label) and its associated field [located next to each other](glossaire.md#label-and-field-located-next-to-each-other)?",
+            "tests": {
+              "1": [
+                "Are each [label](glossaire.md#label) and its associated field [located next to each other](glossaire.md#label-and-field-located-next-to-each-other)?"
+              ]
+            },
+            "references": {
+              "wcag": [
+                "3.3.2 Labels or instructions (A)"
+              ],
+              "techniques": [
+                "PDF10",
+                "G162"
+              ],
+              "norm": [
+                "10.3.3.2 Labels or instructions"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "5",
+            "level": "A",
+            "title": "Are the mandatory or optional [form fields](glossaire.md#form-field) correctly identified (excluding special cases)?",
+            "tests": {
+              "1": [
+                "Does each mandatory or optional [form field](glossaire.md#form-field) meet these conditions?",
+                "The required or optional nature is visible and explicit.",
+                "The required or optional nature is accessible to assistive technologies."
+              ]
+            },
+            "references": {
+              "wcag": [
+                "3.3.2 Labels or instructions (A)"
+              ],
+              "techniques": [
+                "PDF10"
+              ],
+              "norm": [
+                "10.1.4.1 Use of color, 10.3.3.1 Error identification, 10.3.3.2 Labels or instructions"
+              ],
+              "pdfua": [
+                "8.10.2.2 Labels",
+                "8.10.2.3 Contents entry"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "6",
+            "level": "A",
+            "title": "Do the data type and/or format instructions meet these conditions?",
+            "tests": {
+              "1": [
+                "Do the instructions and indications of the mandatory data type and/or format meet these conditions?",
+                "The data type and/or format is visible.",
+                "The data type and/or format is indicated prior to form validation.",
+                "The data type and/or format is accessible to assistive technologies."
+              ]
+            },
+            "references": {
+              "wcag": [
+                "3.3.2 Labels or instructions (A)"
+              ],
+              "techniques": [
+                "PDF10"
+              ],
+              "norm": [
+                "10.3.3.1 Error identification, 10.3.3.2 Labels or instructions"
+              ],
+              "pdfua": [
+                "8.10.2.2 Labels",
+                "8.10.2.3 Contents entry",
+                "8.10.2.4 TU entry",
+                "8.10.3.2.3 Check boxes and radio buttons",
+                "8.10.3.4 Choice fields"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "7",
+            "level": "A",
+            "title": "Is each input error message correctly rendered?",
+            "tests": {
+              "1": [
+                "Does each input error message meet these conditions?",
+                "The error message is visible.",
+                "The error message is accessible to assistive technologies."
+              ]
+            },
+            "references": {
+              "wcag": [
+                "3.3.1 Error identification (A)"
+              ],
+              "techniques": [
+                "PDF22"
+              ],
+              "norm": [
+                "10.3.3.1 Error identification"
+              ],
+              "pdfua": [
+                "8.10.2.4 TU entry",
+                "8.10.3.2.3 Check boxes and radio buttons",
+                "8.10.3.4 Choice fields"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "8",
+            "level": "AA",
+            "title": "Is the [error management](glossaire.md#error-management) accompanied, if necessary, by suggestions for expected data types, formats or values (excluding special cases)?",
+            "tests": {
+              "1": [
+                "Does the [error management](glossaire.md#error-management) meet these conditions?",
+                "The input check is accompanied, if necessary, by suggestions for the expected data types and formats.",
+                "The input check is accompanied, if necessary, by suggestions for expected values."
+              ]
+            },
+            "references": {
+              "wcag": [
+                "3.3.3 Error suggestion (AA)"
+              ],
+              "techniques": [
+                "PDF22"
+              ],
+              "norm": [
+                "10.3.3.3 Error suggestion"
+              ],
+              "pdfua": [
+                "8.10.2.4 TU entry",
+                "8.10.3.2.3 Check boxes and radio buttons",
+                "8.10.3.4 Choice fields"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "9",
+            "level": "A",
+            "title": "Does each form button have a label?",
+            "tests": {
+              "1": [
+                "Does each form button have a label?"
+              ]
+            },
+            "references": {
+              "wcag": [
+                "4.1.2 Name, role, value (A)"
+              ],
+              "techniques": [
+                "G108"
+              ],
+              "norm": [
+                "10.4.1.2 Name, role, value"
+              ],
+              "pdfua": [
+                "8.10.3.2.2 Push-button"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "10",
+            "level": "A",
+            "title": "Is the label of each form button relevant?",
+            "tests": {
+              "1": [
+                "Does each form button meet these conditions?",
+                "The label of the button accessible to assistive technologies is relevant.",
+                "The visible text of the button is contained in the label accessible to assistive technologies."
+              ]
+            },
+            "references": {
+              "wcag": [
+                "4.1.2 Name, role, value (A)"
+              ],
+              "techniques": [
+                "G108",
+                "PDF12"
+              ],
+              "norm": [
+                "10.2.5.3 Label in name, 10.4.1.2 Name, role, value"
+              ],
+              "pdfua": [
+                "8.10.3.2.2 Push-button"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "11",
+            "level": "AA",
+            "title": "For each form which modifies or deletes data, or which transmits answers to a test or examination, or whose validation has financial or legal consequences, can the data entered be modified, updated or recovered by the user?",
+            "tests": {
+              "1": [
+                "For each form which modifies or deletes data, or which transmits answers to a test or examination, or whose validation has financial or legal consequences, can the data entered be modified, updated or recovered by the user?"
+              ]
+            },
+            "references": {
+              "wcag": [
+                "3.3.4 Error prevention (legal, financial, data) (AA)"
+              ],
+              "techniques": [
+                "G99",
+                "G155"
+              ],
+              "norm": [
+                "10.3.3.4 Error prevention (legal, financial, data)"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

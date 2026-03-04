@@ -1,0 +1,13 @@
+{
+  "name": "rapdf-scripts",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "generate-criteres-json": "node src/generate-criteres-json.js",
+    "generate-all": "npm run generate-criteres-json -- -l en && npm run generate-criteres-json -- -l fr"
+  },
+  "dependencies": {
+    "commander": "^13.1.0",
+    "remark": "^15.0.1"
+  }
+}
