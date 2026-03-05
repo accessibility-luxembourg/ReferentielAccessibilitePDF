@@ -1,0 +1,1484 @@
+{
+  "wcag": {
+    "version": 2.1
+  },
+  "topics": [
+    {
+      "topic": "Éléments graphiques",
+      "number": "1",
+      "criteria": [
+        {
+          "criterium": {
+            "number": "1",
+            "level": "A",
+            "title": "Chaque image [de décoration](glossaire.md#de-decoration) est-elle correctement ignorée par les technologies d’assistance ?",
+            "tests": {
+              "1": [
+                "Chaque image [de décoration](glossaire.md#de-decoration) vérifie-t-elle une de ces conditions ?",
+                "L’image est dépourvue d’alternative.",
+                "L’image est [absente de la restitution](glossaire.md#absente-de-la-restitution-image-de-decoration)."
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.1.1 Contenu non textuel (A)"
+              ],
+              "techniques": [
+                "PDF1",
+                "PDF4"
+              ],
+              "norm": [
+                "10.1.1.1 Non-text content"
+              ],
+              "pdfua": [
+                "8.3.2 Use of the Artifact structure element",
+                "8.9.2.4.14 Printer’s mark"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "2",
+            "level": "A",
+            "title": "Chaque image [porteuse d’information](glossaire.md#porteuse-d-information) a-t-elle une [alternative textuelle](glossaire.md#alternative-textuelle) ?",
+            "tests": {
+              "1": [
+                "Chaque image [porteuse d’information](glossaire.md#porteuse-d-information) vérifie-t-elle une de ces conditions ?",
+                "L’image possède une alternative textuelle.",
+                "Un lien adjacent à l’image permet d’accéder à une alternative textuelle."
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.1.1 Contenu non textuel (A)"
+              ],
+              "techniques": [
+                "PDF1"
+              ],
+              "norm": [
+                "10.1.1.1 Non-text content"
+              ],
+              "pdfua": [
+                "8.2.5.28.1 Figure semantics",
+                "8.2.5.28.2 Figure properties",
+                "8.4.3 Replacements and alternatives for text",
+                "8.9.2.4.7 Rubber stamp",
+                "8.9.2.4.8 Ink",
+                "8.9.4.2 Alt properties"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "3",
+            "level": "A",
+            "title": "Pour chaque image [porteuse d’information](glossaire.md#porteuse-d-information) ayant une [alternative textuelle](glossaire.md#alternative-textuelle), cette alternative est-elle pertinente ?",
+            "tests": {
+              "1": [
+                "Pour chaque image [porteuse d’information](glossaire.md#porteuse-d-information) ayant une [alternative textuelle](glossaire.md#alternative-textuelle), cette alternative est-elle pertinente ?"
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.1.1 Contenu non textuel (A)"
+              ],
+              "techniques": [
+                "PDF1"
+              ],
+              "norm": [
+                "10.1.1.1 Non-text content"
+              ],
+              "pdfua": [
+                "8.2.5.28.1 Figure semantics",
+                "8.2.5.28.2 Figure properties",
+                "8.4.3 Replacements and alternatives for text",
+                "8.9.2.4.7 Rubber stamp",
+                "8.9.2.4.8 Ink",
+                "8.9.4.2 Alt properties"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "4",
+            "level": "A",
+            "title": "Chaque image [porteuse d’information](glossaire.md#porteuse-d-information) a-t-elle, si nécessaire, une [description détaillée](glossaire.md#description-detaillee) ?",
+            "tests": {
+              "1": [
+                "Chaque image [porteuse d’information](glossaire.md#porteuse-d-information) qui nécessite une [description détaillée](glossaire.md#description-detaillee) vérifie-t-elle une de ces conditions ?",
+                "La [description détaillée](glossaire.md#description-detaillee) est adjacente à l’image.",
+                "Un lien adjacent à l’image permet d’accéder à la [description détaillée](glossaire.md#description-detaillee)."
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.1.1 Contenu non textuel (A)"
+              ],
+              "techniques": [
+                "PDF1",
+                "G73",
+                "G92"
+              ],
+              "norm": [
+                "10.1.1.1 Non-text content"
+              ],
+              "pdfua": [
+                "8.2.5.27 Caption",
+                "8.9.2.4.7 Rubber stamp",
+                "8.9.2.4.8 Ink",
+                "8.9.4.2 Alt properties"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "5",
+            "level": "A",
+            "title": "Pour chaque image [porteuse d’information](glossaire.md#porteuse-d-information) ayant une [description détaillée](glossaire.md#description-detaillee), cette description est-elle pertinente ?",
+            "tests": {
+              "1": [
+                "Chaque image [porteuse d’information](glossaire.md#porteuse-d-information) ayant une [description détaillée](glossaire.md#description-detaillee) vérifie-t-elle une de ces conditions ?",
+                "La [description détaillée](glossaire.md#description-detaillee) adjacente à l’image est pertinente.",
+                "La [description détaillée](glossaire.md#description-detaillee) consultable au moyen d’un lien adjacent est pertinente."
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.1.1 Contenu non textuel (A)"
+              ],
+              "techniques": [
+                "PDF1",
+                "G73",
+                "G92"
+              ],
+              "norm": [
+                "10.1.1.1 Non-text content"
+              ],
+              "pdfua": [
+                "8.9.2.4.7 Rubber stamp",
+                "8.9.2.4.8 Ink",
+                "8.9.4.2 Alt properties"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "6",
+            "level": "A",
+            "title": "Chaque [légende](glossaire.md#legende) d’image est-elle, si nécessaire, correctement reliée à l’image correspondante ?",
+            "tests": {
+              "1": [
+                "Chaque [légende](glossaire.md#legende) associée à une image vérifie-t-elle ces conditions ?",
+                "La [légende](glossaire.md#legende) est adjacente à l’image.",
+                "L’alternative de l’image contient une [référence explicite](glossaire.md#reference-explicite-a-une-legende-d-image-ou-a-une-forme-complexe) à la légende."
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.1.1 Contenu non textuel (A)"
+              ],
+              "techniques": [
+                "PDF1"
+              ],
+              "norm": [
+                "10.1.1.1 Non-text content"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "7",
+            "level": "AA",
+            "title": "Chaque [image texte](glossaire.md#image-texte-ou-texte-en-image) [porteuse d’information](glossaire.md#porteuse-d-information), en l’absence d’une [version alternative textuelle](glossaire.md#version-alternative-textuelle), doit être remplacée par du texte stylé. Cette règle est-elle respectée (hors cas particuliers) ?",
+            "tests": {
+              "1": [
+                "Chaque [image texte](glossaire.md#image-texte-ou-texte-en-image) [porteuse d’information](glossaire.md#porteuse-d-information), en l’absence d’une [version alternative textuelle](glossaire.md#version-alternative-textuelle), doit être remplacée par du texte stylé. Cette règle est-elle respectée (hors cas particuliers) ?"
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.4.5 Texte sous forme d’image (AA)"
+              ],
+              "techniques": [
+                "PDF7",
+                "G140"
+              ],
+              "norm": [
+                "10.1.4.5 Images of text"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "topic": "Couleur",
+      "number": "2",
+      "criteria": [
+        {
+          "criterium": {
+            "number": "1",
+            "level": "A",
+            "title": "L’information ne doit pas être [donnée uniquement par la couleur](glossaire.md#information-donnee-uniquement-par-la-couleur). Cette règle est-elle respectée ?",
+            "tests": {
+              "1": [
+                "Pour chaque mot ou ensemble de mots dont la mise en couleur est porteuse d’information, l’information ne doit pas être [donnée uniquement par la couleur](glossaire.md#information-donnee-uniquement-par-la-couleur). Cette règle est-elle respectée ?"
+              ],
+              "2": [
+                "Pour chaque indication de couleur donnée par un texte, l’information ne doit pas être [donnée uniquement par la couleur](glossaire.md#information-donnee-uniquement-par-la-couleur). Cette règle est-elle respectée ?"
+              ],
+              "3": [
+                "Pour chaque image véhiculant une information, l’information ne doit pas être [donnée uniquement par la couleur](glossaire.md#information-donnee-uniquement-par-la-couleur). Cette règle est-elle respectée ?"
+              ],
+              "4": [
+                "Pour chaque mise en forme dont la couleur véhicule une information, l’information ne doit pas être [donnée uniquement par la couleur](glossaire.md#information-donnee-uniquement-par-la-couleur). Cette règle est-elle respectée ?"
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.4.1 Utilisation de la couleur (A)"
+              ],
+              "techniques": [
+                "G14",
+                "G182",
+                "G111",
+                "G138"
+              ],
+              "norm": [
+                "10.1.4.1 Use of colour"
+              ],
+              "pdfua": [
+                "8.9.2.3 Markup annotations",
+                "8.9.2.4.5 Text markup",
+                "8.9.2.4.16 Watermark",
+                "8.9.2.4.17 Redaction",
+                "8.9.2.4.18 Projection",
+                "8.9.2.4.20 Other"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "2",
+            "level": "AA",
+            "title": "Le contraste entre la couleur du texte et la couleur de son arrière-plan est-il suffisamment élevé (hors cas particuliers) ?",
+            "tests": {
+              "1": [
+                "Pour le [texte en taille normale](glossaire.md#texte-en-taille-normale), le rapport de contraste entre le texte et son arrière-plan vérifie-t-il une de ces conditions (hors cas particuliers) ?",
+                "Le rapport de contraste entre le texte et son arrière-plan est de 4,5:1, au moins.",
+                "Un [mécanisme de remplacement](glossaire.md#mecanisme-de-remplacement-contraste-renforce) permet d’afficher le texte avec un rapport de contraste de 4,5:1, au moins."
+              ],
+              "2": [
+                "Pour le [texte en taille agrandie](glossaire.md#texte-en-taille-agrandie), le rapport de contraste entre le texte et son arrière-plan vérifie-t-il une de ces conditions (hors cas particuliers) ?",
+                "Le rapport de contraste entre le texte et son arrière-plan est de 3:1, au moins.",
+                "Un [mécanisme de remplacement](glossaire.md#mecanisme-de-remplacement-contraste-renforce) permet d’afficher le texte avec un rapport de contraste de 3:1, au moins."
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.4.3 Contraste (minimum) (AA)"
+              ],
+              "techniques": [
+                "G18",
+                "G145"
+              ],
+              "norm": [
+                "10.1.4.3 Contrast (minimum)"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "3",
+            "level": "AA",
+            "title": "Les couleurs utilisées dans les éléments graphiques porteurs d’informations sont-elles suffisamment contrastées (hors cas particuliers) ?",
+            "tests": {
+              "1": [
+                "Le rapport de contraste de chaque couleur nécessaire à la compréhension d’un élément graphique avec les [couleurs adjacentes](glossaire.md#couleurs-adjacentes), vérifie-t-il une de ces conditions (hors cas particuliers) ?",
+                "Le rapport de contraste est de 3:1, au moins.",
+                "Un [mécanisme de remplacement](glossaire.md#mecanisme-de-remplacement-contraste-renforce) permet d’afficher les éléments graphiques avec des contrastes suffisants."
+              ],
+              "2": [
+                "Le rapport de contraste de chaque couleur nécessaire à la compréhension d’un élément graphique avec la couleur d’arrière-plan, vérifie-t-il une de ces conditions (hors cas particuliers) ?",
+                "Le rapport de contraste est de 3:1, au moins.",
+                "Un [mécanisme de remplacement](glossaire.md#mecanisme-de-remplacement-contraste-renforce) permet d’afficher les éléments graphiques avec des contrastes suffisants."
+              ],
+              "3": [
+                "Le rapport de contraste entre les couleurs d’un élément graphique dans ses [différents états](glossaire.md#differents-etats-d-un-element-graphique) vérifie-t-il une de ces conditions (hors cas particuliers) ?",
+                "Le rapport de contraste est de 3:1, au moins.",
+                "Un [mécanisme de remplacement](glossaire.md#mecanisme-de-remplacement-contraste-renforce) permet d’afficher les éléments graphiques avec des contrastes suffisants."
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.4.11 Contraste du contenu non textuel (AA)"
+              ],
+              "techniques": [
+                "G207",
+                "G209"
+              ],
+              "norm": [
+                "10.1.4.11 Non-text contrast"
+              ],
+              "pdfua": [
+                "8.9.2.4.13 Widget"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "topic": "Tableaux",
+      "number": "3",
+      "criteria": [
+        {
+          "criterium": {
+            "number": "1",
+            "level": "A",
+            "title": "Chaque [tableau de données complexe](glossaire.md#tableau-de-donnees-complexe) a-t-il une alternative ?",
+            "tests": {
+              "1": [
+                "Chaque [tableau de données complexe](glossaire.md#tableau-de-donnees-complexe) vérifie-t-il une de ces conditions ?",
+                "Une alternative est adjacente au tableau ;",
+                "Une ancre adjacente permet d’accéder à une alternative ;",
+                "Un lien permet d’accéder à un document contenant une alternative."
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.3.2 Ordre séquentiel logique (A)"
+              ],
+              "techniques": [
+                "PDF3",
+                "G57"
+              ],
+              "norm": [
+                "10.1.3.2 Meaningful sequence"
+              ],
+              "pdfua": [
+                "8.2.3 Logical content order",
+                "8.2.5.26 Table (Table, TR, TH, TD, THead, TBody, TFoot)"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "2",
+            "level": "A",
+            "title": "Pour chaque [tableau de données complexe](glossaire.md#tableau-de-donnees-complexe) ayant une alternative, celle-ci est-elle pertinente ?",
+            "tests": {
+              "1": [
+                "Pour chaque [tableau de données complexe](glossaire.md#tableau-de-donnees-complexe) ayant une alternative, celle-ci est-elle pertinente ?"
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.3.2 Ordre séquentiel logique (A)"
+              ],
+              "techniques": [
+                "PDF3",
+                "G57"
+              ],
+              "norm": [
+                "10.1.3.2 Meaningful sequence"
+              ],
+              "pdfua": [
+                "8.2.3 Logical content order",
+                "8.2.5.26 Table (Table, TR, TH, TD, THead, TBody, TFoot)"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "3",
+            "level": "A",
+            "title": "Pour chaque [tableau de données,](glossaire.md#tableau-de-donnees) les [en-têtes](glossaire.md#en-tete-tableau) sont-ils correctement déclarés ?",
+            "tests": {
+              "1": [
+                "Pour chaque [tableau de données](glossaire.md#tableau-de-donnees), chaque [en-tête](glossaire.md#en-tete-tableau) utilise-t-il un élément TH ?"
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.3.1 Information et relations (A)"
+              ],
+              "techniques": [
+                "PDF6",
+                "PDF3"
+              ],
+              "norm": [
+                "10.1.3.1 Info and relationships"
+              ],
+              "pdfua": [
+                "8.2.5.26 Table (Table, TR, TH, TD, THead, TBody, TFoot)"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "4",
+            "level": "A",
+            "title": "Pour chaque [tableau de présentation](glossaire.md#tableau-de-presentation), le [contenu linéarisé](glossaire.md#contenu-linearise) reste-t-il compréhensible ?",
+            "tests": {
+              "1": [
+                "Pour chaque [tableau de présentation](glossaire.md#tableau-de-presentation), le [contenu linéarisé](glossaire.md#contenu-linearise) reste-t-il compréhensible ?"
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.3.2 Ordre séquentiel logique (A)"
+              ],
+              "techniques": [
+                "PDF3"
+              ],
+              "norm": [
+                "10.1.3.2 Meaningful sequence"
+              ],
+              "pdfua": [
+                "8.2.3 Logical content order"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "5",
+            "level": "A",
+            "title": "Chaque [tableau de présentation](glossaire.md#tableau-de-presentation) ne doit pas utiliser d’éléments propres aux [tableaux de données](glossaire.md#tableau-de-donnees), cette règle est-elle respectée ?",
+            "tests": {
+              "1": [
+                "Chaque [tableau de présentation](glossaire.md#tableau-de-presentation) ne doit pas utiliser d’éléments propres aux [tableaux de données](glossaire.md#tableau-de-donnees), cette règle est-elle respectée ?"
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.3.1 Information et relations (A)"
+              ],
+              "techniques": [
+                "PDF3"
+              ],
+              "norm": [
+                "10.1.3.1 Info and relationships"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "topic": "Liens",
+      "number": "4",
+      "criteria": [
+        {
+          "criterium": {
+            "number": "1",
+            "level": "A",
+            "title": "Chaque [lien](glossaire.md#lien) est-il explicite ?",
+            "tests": {
+              "1": [
+                "Chaque [lien](glossaire.md#lien) vérifie-t-il une de ces conditions ?",
+                "L’[intitulé du lien](glossaire.md#intitule-du-lien) seul est explicite ;",
+                "Le [contexte du lien](glossaire.md#contexte-du-lien) permet d’expliciter le lien."
+              ],
+              "2": [
+                "Chaque [lien identique](glossaire.md#liens-identiques) a-t-il les mêmes fonctions et destination ?"
+              ]
+            },
+            "references": {
+              "wcag": [
+                "2.4.4 Fonction du lien (selon le contexte) (A)"
+              ],
+              "techniques": [
+                "PDF11",
+                "PDF13"
+              ],
+              "norm": [
+                "10.2.4.4 Link purpose (in context)"
+              ],
+              "pdfua": [
+                "8.9.2.4.2 Link",
+                "8.9.2.4.10 File attachment"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "2",
+            "level": "A",
+            "title": "Chaque [lien](glossaire.md#lien) a-t-il un intitulé ?",
+            "tests": {
+              "1": [
+                "Chaque [lien](glossaire.md#lien) image a-t-il un intitulé ?"
+              ],
+              "2": [
+                "Chaque [lien](glossaire.md#lien) utilisant une forme complexe a-t-il un intitulé ?"
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.1.1 Contenu non textuel (A)",
+                "2.4.4 Fonction du lien (selon le contexte) (A)"
+              ],
+              "techniques": [
+                "PDF1",
+                "PDF11"
+              ],
+              "norm": [
+                "10.2.4.4 Link purpose (in context)",
+                "10.1.1.1 Non-text content"
+              ],
+              "pdfua": [
+                "8.9.2.4.2 Link",
+                "8.9.2.4.10 File attachment"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "topic": "Structuration de l’information",
+      "number": "5",
+      "criteria": [
+        {
+          "criterium": {
+            "number": "1",
+            "level": "A",
+            "title": "L’information est-elle structurée par l’utilisation appropriée de titres ?",
+            "tests": {
+              "1": [
+                "Chaque titre utilise-t-il un [style de titre](glossaire.md#style-de-titre) ?"
+              ],
+              "2": [
+                "Lorsque les [styles de titres](glossaire.md#style-de-titre) le permettent, la [hiérarchie du titrage](glossaire.md#hierarchie-du-titrage) est-elle cohérente ?"
+              ],
+              "3": [
+                "Chaque titre est-il pertinent ?"
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.3.1 Information et relations (A)",
+                "2.4.6 En-têtes et étiquettes (AA)"
+              ],
+              "techniques": [
+                "PDF9",
+                "G130"
+              ],
+              "norm": [
+                "10.1.3.1 Info and relationships",
+                "10.2.4.6 Headings and labels"
+              ],
+              "pdfua": [
+                "8.2.5.12 Heading (Hn) and (H)"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "2",
+            "level": "A",
+            "title": "Chaque contenu présenté sous forme de liste utilise-t-il un [style de liste](glossaire.md#style-de-liste) ?",
+            "tests": {
+              "1": [
+                "Chaque contenu présenté sous forme de liste non ordonnée utilise-t-il un [style de liste](glossaire.md#style-de-liste) approprié ?"
+              ],
+              "2": [
+                "Lorsque les [styles de liste](glossaire.md#style-de-liste) le permettent, chaque contenu présenté sous forme de liste ordonnée utilise-t-il un [style de liste](glossaire.md#style-de-liste) approprié ?"
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.3.1 Information et relations (A)"
+              ],
+              "techniques": [
+                "PDF21"
+              ],
+              "norm": [
+                "10.1.3.1 Info and relationships"
+              ],
+              "pdfua": [
+                "8.2.5.25 List (L, LI, LBody)"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "3",
+            "level": "A",
+            "title": "Les [éléments de structure](glossaire.md#elements-de-structure) ne doivent pas être utilisés uniquement à des fins de présentation, cette règle est-elle respectée ?",
+            "tests": {
+              "1": [
+                "Les [éléments de structure](glossaire.md#elements-de-structure) ne doivent pas être utilisés uniquement à des fins de présentation, cette règle est-elle respectée ?"
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.3.1 Information et relations (A)"
+              ],
+              "techniques": [
+                "G115"
+              ],
+              "norm": [
+                "10.1.3.1 Info and relationships"
+              ],
+              "pdfua": [
+                "8.2.5.11 Paragraph (P)",
+                "8.2.5.16 Label (Lbl)",
+                "8.2.5.17 Span",
+                "8.2.5.19 Emphasis (Em) and Strong",
+                "8.9.2.4.12 Screen"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "4",
+            "level": "A",
+            "title": "Chaque bloc de citation est-il correctement indiqué ?",
+            "tests": {
+              "1": [
+                "Chaque bloc de citation est-il correctement indiqué ?"
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.3.1 Information et relations (A)"
+              ],
+              "techniques": [
+                "G115"
+              ],
+              "norm": [
+                "10.1.3.1 Info and relationships"
+              ],
+              "pdfua": [
+                "8.2.5.7 Block quotation (BlockQuote)"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "topic": "Présentation de l’information",
+      "number": "6",
+      "criteria": [
+        {
+          "criterium": {
+            "number": "1",
+            "level": "A",
+            "title": "L’[ordre de restitution](glossaire.md#ordre-de-restitution) des contenus est-il cohérent ?",
+            "tests": {
+              "1": [
+                "L’[ordre de restitution](glossaire.md#ordre-de-restitution) des contenus est-il cohérent ?"
+              ],
+              "2": [
+                "L’[ordre de tabulation](glossaire.md#ordre-de-tabulation) des contenus est-il cohérent ?"
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.3.2 Ordre séquentiel logique (A)",
+                "2.1.1 Clavier (A)",
+                "2.4.3 Parcours du focus (A)"
+              ],
+              "techniques": [
+                "G57",
+                "G59",
+                "PDF3"
+              ],
+              "norm": [
+                "10.1.3.2 Meaningful sequence",
+                "10.2.1.1 Keyboard",
+                "10.2.4.3 Focus order"
+              ],
+              "pdfua": [
+                "8.2.3 Logical content order",
+                "8.9.2.4.1 Text",
+                "8.9.2.4.3 Free text",
+                "8.9.2.4.5 Text markup",
+                "8.9.2.4.9 Popup",
+                "8.9.2.4.11\tSound, movie",
+                "8.9.3.2 Association with content",
+                "8.9.3.3 Tab order",
+                "8.10.3.5 Signature fields"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "2",
+            "level": "A",
+            "title": "L’information ne doit pas être donnée uniquement par la [forme, la taille ou la position](glossaire.md#indication-donnee-uniquement-par-la-forme-la-taille-ou-la-position). Cette règle est-elle respectée ?",
+            "tests": {
+              "1": [
+                "Pour chaque modification du type ou d’un style de caractère, porteur d’information, l’information ne doit pas être donnée uniquement par la [forme, la taille ou la position](glossaire.md#indication-donnee-uniquement-par-la-forme-la-taille-ou-la-position). Cette règle est-elle respectée ?"
+              ],
+              "2": [
+                "Pour chaque indication visuelle donnée au moyen d’un positionnement ou la présence d’un caractère spécial, porteur d’information, l’information ne doit pas être donnée uniquement par la [forme, la taille ou la position](glossaire.md#indication-donnee-uniquement-par-la-forme-la-taille-ou-la-position). Cette règle est-elle respectée ?"
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.3.3 Caractéristiques sensorielles (A)"
+              ],
+              "techniques": [
+                "G96"
+              ],
+              "norm": [
+                "10.1.3.3 Sensory characteristics"
+              ],
+              "pdfua": [
+                "8.9.2.3 Markup annotations",
+                "8.9.2.4.4 Line, square, circle, polygon and polyline",
+                "8.9.2.4.16 Watermark",
+                "8.9.2.4.17 Redaction",
+                "8.9.2.4.18 Projection",
+                "8.9.2.4.20 Other"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "3",
+            "level": "A",
+            "title": "Chaque lien signalé uniquement par la couleur et dont [la nature n’est pas évidente](glossaire.md#lien-dont-la-nature-n-est-pas-evidente) est-il visible, par rapport au texte environnant ?",
+            "tests": {
+              "1": [
+                "Chaque lien signalé uniquement par la couleur et dont [la nature n’est pas évidente](glossaire.md#lien-dont-la-nature-n-est-pas-evidente) a-t-il un rapport de contraste supérieur ou égal à 3:1, par rapport au texte environnant ?"
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.4.1 Utilisation de la couleur (A)"
+              ],
+              "techniques": [
+                "G183"
+              ],
+              "norm": [
+                "10.1.4.1 Use of colour"
+              ],
+              "pdfua": [
+                "8.9.2.4.5 Text markup",
+                "8.9.2.4.6 Caret"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "topic": "Navigation",
+      "number": "7",
+      "criteria": [
+        {
+          "criterium": {
+            "number": "1",
+            "level": "AA",
+            "title": "Obsolète",
+            "tests": {},
+            "references": {}
+          }
+        }
+      ]
+    },
+    {
+      "topic": "Éléments obligatoires",
+      "number": "8",
+      "criteria": [
+        {
+          "criterium": {
+            "number": "1",
+            "level": "A",
+            "title": "Le document possède-t-il un [titre de document](glossaire.md#titre-de-document) ?",
+            "tests": {
+              "1": [
+                "Le document possède-t-il un [titre de document](glossaire.md#titre-de-document) ?"
+              ]
+            },
+            "references": {
+              "wcag": [
+                "2.4.2 Titre de page (A)"
+              ],
+              "techniques": [
+                "PDF18"
+              ],
+              "norm": [
+                "10.2.4.2 Document titled"
+              ],
+              "pdfua": [
+                "8.11.2 Interactive aspects"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "2",
+            "level": "A",
+            "title": "Le [titre de document](glossaire.md#titre-de-document) est-il pertinent (sauf cas particulier) ?",
+            "tests": {
+              "1": [
+                "Le [titre de document](glossaire.md#titre-de-document) est-il pertinent (sauf cas particulier) ?"
+              ]
+            },
+            "references": {
+              "wcag": [
+                "2.4.2 Titre de page (A)"
+              ],
+              "techniques": [
+                "PDF18"
+              ],
+              "norm": [
+                "10.2.4.2 Document titled"
+              ],
+              "pdfua": [
+                "8.11.2 Interactive aspects"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "topic": "Consultation",
+      "number": "9",
+      "criteria": [
+        {
+          "criterium": {
+            "number": "1",
+            "level": "A",
+            "title": "Chaque [forme complexe](glossaire.md#forme-complexe) [de décoration](glossaire.md#de-decoration) est-elle correctement ignorée par les technologies d’assistance ?",
+            "tests": {
+              "1": [
+                "Chaque [forme complexe](glossaire.md#forme-complexe) [de décoration](glossaire.md#de-decoration) vérifie-t-elle une de ces conditions ?",
+                "La forme complexe est dépourvue d’alternative.",
+                "La forme complexe est [absente de la restitution](glossaire.md#absente-de-la-restitution-image-de-decoration)."
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.1.1 Contenu non textuel (A)"
+              ],
+              "techniques": [
+                "PDF1",
+                "PDF4"
+              ],
+              "norm": [
+                "10.1.1.1 Non-text content"
+              ],
+              "pdfua": [
+                "8.3.2 Use of the Artifact structure element",
+                "8.9.2.4.14 Printer’s mark"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "2",
+            "level": "A",
+            "title": "Chaque [forme complexe](glossaire.md#forme-complexe) [porteuse d’information](glossaire.md#porteuse-d-information) a-t-elle une [alternative textuelle](glossaire.md#alternative-textuelle) ?",
+            "tests": {
+              "1": [
+                "Chaque [forme complexe](glossaire.md#forme-complexe) [porteuse d’information](glossaire.md#porteuse-d-information) vérifie-t-elle une de ces conditions ?",
+                "La forme complexe possède une alternative textuelle.",
+                "Un lien adjacent à la forme complexe permet d’accéder à une alternative textuelle."
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.1.1 Contenu non textuel (A)"
+              ],
+              "techniques": [
+                "PDF1"
+              ],
+              "norm": [
+                "10.1.1.1 Non-text content"
+              ],
+              "pdfua": [
+                "8.2.5.28.1 Figure semantics",
+                "8.2.5.28.2 Figure properties",
+                "8.4.3 Replacements and alternatives for text",
+                "8.5.2 Use of ActualText",
+                "8.9.2.2 Annotations as artifacts",
+                "8.9.2.4.7 Rubber stamp",
+                "8.9.2.4.8 Ink",
+                "8.9.2.4.19 3D and RichMedia",
+                "8.9.4.2 Alt properties"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "3",
+            "level": "A",
+            "title": "Pour chaque [forme complexe](glossaire.md#forme-complexe) [porteuse d’information](glossaire.md#porteuse-d-information) ayant une [alternative textuelle](glossaire.md#alternative-textuelle), cette alternative est-elle pertinente ?",
+            "tests": {
+              "1": [
+                "Pour chaque [forme complexe](glossaire.md#forme-complexe) [porteuse d’information](glossaire.md#porteuse-d-information) ayant une [alternative textuelle](glossaire.md#alternative-textuelle), cette alternative est-elle pertinente ?"
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.1.1 Contenu non textuel (A)"
+              ],
+              "techniques": [
+                "PDF1"
+              ],
+              "norm": [
+                "10.1.1.1 Non-text content"
+              ],
+              "pdfua": [
+                "8.2.5.28.1 Figure semantics",
+                "8.2.5.28.2 Figure properties",
+                "8.4.3 Replacements and alternatives for text",
+                "8.5.2 Use of ActualText",
+                "8.9.2.4.7 Rubber stamp",
+                "8.9.2.4.8 Ink",
+                "8.9.2.4.19 3D and RichMedia",
+                "8.9.4.2 Alt properties"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "4",
+            "level": "A",
+            "title": "Chaque [forme complexe](glossaire.md#forme-complexe) [porteuse d’information](glossaire.md#porteuse-d-information) a-t-elle, si nécessaire, une [description détaillée](glossaire.md#description-detaillee) ?",
+            "tests": {
+              "1": [
+                "Chaque [forme complexe](glossaire.md#forme-complexe) [porteuse d’information](glossaire.md#porteuse-d-information) qui nécessite une [description détaillée](glossaire.md#description-detaillee) vérifie-t-elle une de ces conditions ?",
+                "La [description détaillée](glossaire.md#description-detaillee) est adjacente à la forme complexe.",
+                "Un lien adjacent à la forme complexe permet d’accéder à la [description détaillée](glossaire.md#description-detaillee)."
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.1.1 Contenu non textuel (A)"
+              ],
+              "techniques": [
+                "PDF1"
+              ],
+              "norm": [
+                "10.1.1.1 Non-text content"
+              ],
+              "pdfua": [
+                "8.2.5.27 Caption",
+                "8.9.2.4.7 Rubber stamp",
+                "8.9.2.4.8 Ink",
+                "8.9.2.4.19 3D and RichMedia",
+                "8.9.4.2 Alt properties"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "5",
+            "level": "A",
+            "title": "Pour chaque [forme complexe](glossaire.md#forme-complexe) [porteuse d’information](glossaire.md#porteuse-d-information) ayant une [description détaillée](glossaire.md#description-detaillee), cette description est-elle pertinente ?",
+            "tests": {
+              "1": [
+                "Chaque [forme complexe](glossaire.md#forme-complexe) [porteuse d’information](glossaire.md#porteuse-d-information) ayant une [description détaillée](glossaire.md#description-detaillee) vérifie-t-elle une de ces conditions ?",
+                "La [description détaillée](glossaire.md#description-detaillee) adjacente à la forme complexe est pertinente.",
+                "La [description détaillée](glossaire.md#description-detaillee) consultable au moyen d’un lien adjacent est pertinente."
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.1.1 Contenu non textuel (A)"
+              ],
+              "techniques": [
+                "PDF1"
+              ],
+              "norm": [
+                "10.1.1.1 Non-text content"
+              ],
+              "pdfua": [
+                "8.9.2.4.7 Rubber stamp",
+                "8.9.2.4.8 Ink",
+                "8.9.2.4.19 3D and RichMedia",
+                "8.9.4.2 Alt properties"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "6",
+            "level": "A",
+            "title": "Chaque [légende](glossaire.md#legende) de [forme complexe](glossaire.md#forme-complexe) est-elle, si nécessaire, correctement reliée à l’image correspondante ?",
+            "tests": {
+              "1": [
+                "Chaque [légende](glossaire.md#legende) associée à une [forme complexe](glossaire.md#forme-complexe) vérifie-t-elle ces conditions ?",
+                "La [légende](glossaire.md#legende) est adjacente à la forme complexe.",
+                "L’alternative de la forme complexe contient une [référence explicite](glossaire.md#reference-explicite-a-une-legende-d-image-ou-a-une-forme-complexe) à la [légende](glossaire.md#legende)."
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.1.1 Contenu non textuel (A)"
+              ],
+              "techniques": [
+                "PDF1"
+              ],
+              "norm": [
+                "10.1.1.1 Non-text content"
+              ],
+              "pdfua": [
+                "8.9.2.4.19 3D and RichMedia"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "7",
+            "level": "A",
+            "title": "Chaque [contenu cryptique](glossaire.md#contenu-cryptique) (art ASCII, émoticône, syntaxe cryptique) a-t-il une alternative ?",
+            "tests": {
+              "1": [
+                "Chaque [contenu cryptique](glossaire.md#contenu-cryptique) (art ASCII, émoticône, syntaxe cryptique) a-t-il une alternative ?"
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.1.1 Contenu non textuel (A)"
+              ],
+              "techniques": [
+                "PDF1"
+              ],
+              "norm": [
+                "10.1.1.1 Non-text content"
+              ],
+              "pdfua": [
+                "8.2.5.28.1 Figure semantics",
+                "8.2.5.28.2 Figure properties",
+                "8.4.3 Replacements and alternatives for text",
+                "8.9.2.4.7 Rubber stamp",
+                "8.9.2.4.8 Ink"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "8",
+            "level": "A",
+            "title": "Pour chaque [contenu cryptique](glossaire.md#contenu-cryptique) (art ASCII, émoticône, syntaxe cryptique) ayant une alternative, cette alternative est-elle pertinente ?",
+            "tests": {
+              "1": [
+                "Pour chaque [contenu cryptique](glossaire.md#contenu-cryptique) (art ASCII, émoticône, syntaxe cryptique) ayant une alternative, cette alternative est-elle pertinente ?"
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.1.1 Contenu non textuel (A)"
+              ],
+              "techniques": [
+                "PDF1"
+              ],
+              "norm": [
+                "10.1.1.1 Non-text content"
+              ],
+              "pdfua": [
+                "8.2.5.28.1 Figure semantics",
+                "8.2.5.28.2 Figure properties",
+                "8.4.3 Replacements and alternatives for text",
+                "8.9.2.4.7 Rubber stamp",
+                "8.9.2.4.8 Ink"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "9",
+            "level": "A",
+            "title": "Chaque [contenu clignotant ou en mouvement](glossaire.md#contenu-clignotant-ou-en-mouvement) doit avoir une [durée d’activation](glossaire.md#duree-d-activation) inférieure ou égale à 5 secondes. Cette règle est-elle respectée ?",
+            "tests": {
+              "1": [
+                "Chaque [contenu clignotant ou en mouvement](glossaire.md#contenu-clignotant-ou-en-mouvement) doit avoir une [durée d’activation](glossaire.md#duree-d-activation) inférieure ou égale à 5 secondes. Cette règle est-elle respectée ?"
+              ]
+            },
+            "references": {
+              "wcag": [
+                "2.2.2 Mettre en pause, arrêter, masquer (A)"
+              ],
+              "techniques": [
+                "G4",
+                "G11",
+                "G152"
+              ],
+              "norm": [
+                "10.2.2.2 Pause, stop, hide"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "topic": "Formulaire interactif",
+      "number": "10",
+      "criteria": [
+        {
+          "criterium": {
+            "number": "1",
+            "level": "A",
+            "title": "Chaque [champ de formulaire](glossaire.md#champ-de-formulaire) a-t-il une [étiquette](glossaire.md#etiquette) ?",
+            "tests": {
+              "1": [
+                "Chaque [champ de formulaire](glossaire.md#champ-de-formulaire) vérifie-t-il ces conditions ?",
+                "l’[étiquette](glossaire.md#etiquette) est visible ;",
+                "l’[étiquette](glossaire.md#etiquette) est accessible aux technologies d’assistance."
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.3.1 Information et relations (A)",
+                "4.1.2 Nom, rôle et valeur (A)"
+              ],
+              "techniques": [
+                "PDF10",
+                "PDF12"
+              ],
+              "norm": [
+                "10.1.3.1 Info and relationships",
+                "10.4.1.2 Name, role, value"
+              ],
+              "pdfua": [
+                "8.10.2.2\tLabels",
+                "8.10.2.3\tContents entry",
+                "8.10.3.2.3 Check boxes and radio buttons",
+                "8.10.3.4 Choice fields"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "2",
+            "level": "A",
+            "title": "Chaque [étiquette](glossaire.md#etiquette) associée à un [champ de formulaire](glossaire.md#champ-de-formulaire) est-elle pertinente ?",
+            "tests": {
+              "1": [
+                "Chaque [étiquette](glossaire.md#etiquette) vérifie-t-elle ces conditions ?",
+                "L’[étiquette](glossaire.md#etiquette) accessible aux technologies d’assistance est pertinente ;",
+                "L’[étiquette](glossaire.md#etiquette) visible est contenue dans l’[étiquette](glossaire.md#etiquette) accessible aux technologies d’assistance."
+              ]
+            },
+            "references": {
+              "wcag": [
+                "2.4.6 En-têtes et étiquettes (AA)",
+                "2.5.3 Étiquette dans le nom (A)",
+                "3.3.2 Étiquettes ou instructions (A)"
+              ],
+              "techniques": [
+                "G131",
+                "G208",
+                "G211",
+                "PDF10"
+              ],
+              "norm": [
+                "10.2.4.6 Headings and labels",
+                "10.2.5.3 Label in name",
+                "10.3.3.2 Labels or instructions"
+              ],
+              "pdfua": [
+                "8.10.2.2\tLabels",
+                "8.10.2.3\tContents entry",
+                "8.10.3.2.3 Check boxes and radio buttons",
+                "8.10.3.4 Choice fields"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "3",
+            "level": "AA",
+            "title": "Chaque [étiquette](glossaire.md#etiquette) associée à un [champ de formulaire](glossaire.md#champ-de-formulaire) ayant la même fonction et répété plusieurs fois dans un même document est-elle [cohérente](glossaire.md#etiquettes-coherentes) ?",
+            "tests": {
+              "1": [
+                "Chaque [étiquette](glossaire.md#etiquette) associée à un [champ de formulaire](glossaire.md#champ-de-formulaire) ayant la même fonction et répété plusieurs fois dans un même document est-elle [cohérente](glossaire.md#etiquettes-coherentes) ?"
+              ]
+            },
+            "references": {
+              "wcag": [
+                "3.2.4 Identification cohérente (AA)"
+              ],
+              "techniques": [
+                "G197"
+              ],
+              "norm": [
+                "pas de critère lié"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "4",
+            "level": "A",
+            "title": "Chaque [étiquette](glossaire.md#etiquette) et son champ associé sont-ils [accolés](glossaire.md#accoles-etiquette-et-champ-accoles) ?",
+            "tests": {
+              "1": [
+                "Chaque [étiquette](glossaire.md#etiquette) et son champ associé sont-ils [accolés](glossaire.md#accoles-etiquette-et-champ-accoles) ?"
+              ]
+            },
+            "references": {
+              "wcag": [
+                "3.3.2 Étiquettes ou instructions (A)"
+              ],
+              "techniques": [
+                "G162",
+                "PDF10"
+              ],
+              "norm": [
+                "10.3.3.2 Labels or instructions"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "5",
+            "level": "A",
+            "title": "Les [champs de formulaire](glossaire.md#champ-de-formulaire) obligatoires ou facultatifs sont-ils correctement identifiés (hors cas particuliers) ?",
+            "tests": {
+              "1": [
+                "Chaque [champ de formulaire](glossaire.md#champ-de-formulaire) obligatoire ou facultatif vérifie-t-il ces conditions ?",
+                "Le caractère obligatoire ou facultatif est visible et explicite.",
+                "Le caractère obligatoire ou facultatif est accessible aux technologies d’assistance."
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.4.1 Utilisation de la couleur (A)",
+                "3.3.1 Identification des erreurs (A)",
+                "3.3.2 Étiquettes ou instructions (A)"
+              ],
+              "techniques": [
+                "G205",
+                "PDF5",
+                "PDF10"
+              ],
+              "norm": [
+                "10.1.4.1 Use of colour",
+                "10.3.3.1 Error identification",
+                "10.3.3.2 Labels or instructions"
+              ],
+              "pdfua": [
+                "8.10.2.2\tLabels",
+                "8.10.2.3\tContents entry"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "6",
+            "level": "A",
+            "title": "Les instructions du type de données et/ou de format vérifient-elles ces conditions ?",
+            "tests": {
+              "1": [
+                "Les instructions et indications du type de données et/ou de format obligatoires vérifient-elles ces conditions ?",
+                "Le type de données et/ou de format est visible.",
+                "Le type de données et/ou de format est indiqué préalablement à la validation du formulaire.",
+                "Le type de données et/ou de format est accessible aux technologies d’assistance."
+              ]
+            },
+            "references": {
+              "wcag": [
+                "3.3.1 Identification des erreurs (A)",
+                "3.3.2 Étiquettes ou instructions (A)"
+              ],
+              "techniques": [
+                "PDF22",
+                "PDF10"
+              ],
+              "norm": [
+                "10.3.3.1 Error identification",
+                "10.3.3.2 Labels or instructions"
+              ],
+              "pdfua": [
+                "8.10.2.2\tLabels",
+                "8.10.2.3\tContents entry",
+                "8.10.2.4\tTU entry",
+                "8.10.3.2.3\tCheck boxes and radio buttons",
+                "8.10.3.4 Choice fields"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "7",
+            "level": "A",
+            "title": "Chaque message d’erreur de saisie est-il correctement restitué ?",
+            "tests": {
+              "1": [
+                "Chaque message d’erreur de saisie vérifie-t-il ces conditions ?",
+                "Le message d’erreur est visible.",
+                "Le message d’erreur est accessible aux technologies d’assistance."
+              ]
+            },
+            "references": {
+              "wcag": [
+                "3.3.1 Identification des erreurs (A)"
+              ],
+              "techniques": [
+                "PDF22"
+              ],
+              "norm": [
+                "10.3.3.1 Error identification"
+              ],
+              "pdfua": [
+                "8.10.2.4\tTU entry",
+                "8.10.3.2.3\tCheck boxes and radio buttons",
+                "8.10.3.4 Choice fields"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "8",
+            "level": "AA",
+            "title": "Le [contrôle de saisie](glossaire.md#controle-de-saisie) est-il accompagné, si nécessaire, de suggestions des types, formats de données ou valeurs attendus (hors cas particuliers) ?",
+            "tests": {
+              "1": [
+                "Le [contrôle de saisie](glossaire.md#controle-de-saisie) vérifie-t-il ces conditions ?",
+                "Le contrôle de saisie est accompagné, si nécessaire, de suggestions des types et formats de données attendus.",
+                "Le contrôle de saisie est accompagné, si nécessaire, de suggestions de valeurs attendues."
+              ]
+            },
+            "references": {
+              "wcag": [
+                "3.3.3 Suggestion après une erreur (AA)"
+              ],
+              "techniques": [
+                "PDF22"
+              ],
+              "norm": [
+                "10.3.3.3 Error suggestion"
+              ],
+              "pdfua": [
+                "8.10.2.4\tTU entry",
+                "8.10.3.2.3 Check boxes and radio buttons",
+                "8.10.3.4 Choice fields"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "9",
+            "level": "A",
+            "title": "Chaque bouton de formulaire a-t-il un intitulé ?",
+            "tests": {
+              "1": [
+                "Chaque bouton de formulaire a-t-il un intitulé ?"
+              ]
+            },
+            "references": {
+              "wcag": [
+                "1.3.1 Information et relations (A)",
+                "4.1.2 Nom, rôle et valeur (A)"
+              ],
+              "techniques": [
+                "G108",
+                "PDF10"
+              ],
+              "norm": [
+                "10.4.1.2 Name, role, value"
+              ],
+              "pdfua": [
+                "8.10.3.2.2 Push-button"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "10",
+            "level": "A",
+            "title": "L’intitulé de chaque bouton de formulaire est-il pertinent ?",
+            "tests": {
+              "1": [
+                "Chaque bouton de formulaire respecte-t-il ces conditions ?",
+                "L’intitulé du bouton accessible aux technologies d’assistance est pertinent.",
+                "L’intitulé visible du bouton est contenu dans l’intitulé accessible aux technologies d’assistance."
+              ]
+            },
+            "references": {
+              "wcag": [
+                "2.5.3 Étiquette dans le nom (A)",
+                "4.1.2 Nom, rôle et valeur (A)"
+              ],
+              "techniques": [
+                "G108",
+                "G208",
+                "G211",
+                "PDF12"
+              ],
+              "norm": [
+                "10.2.5.3 Label in name",
+                "10.4.1.2 Name, role, value"
+              ],
+              "pdfua": [
+                "8.10.3.2.2 Push-button"
+              ]
+            }
+          }
+        },
+        {
+          "criterium": {
+            "number": "11",
+            "level": "AA",
+            "title": "Pour chaque formulaire qui modifie ou supprime des données, ou qui transmet des réponses à un test ou à un examen, ou dont la validation a des conséquences financières ou juridiques, les données saisies peuvent-elles être modifiées, mises à jour ou récupérées par l’utilisateur ?",
+            "tests": {
+              "1": [
+                "Pour chaque formulaire qui modifie ou supprime des données, ou qui transmet des réponses à un test ou à un examen, ou dont la validation a des conséquences financières ou juridiques, les données saisies peuvent-elles être modifiées, mises à jour ou récupérées par l’utilisateur ?"
+              ]
+            },
+            "references": {
+              "wcag": [
+                "3.3.4 Prévention des erreurs (juridiques, financières, de données) (AA)"
+              ],
+              "techniques": [
+                "G99",
+                "G155"
+              ],
+              "norm": [
+                "10.3.3.4 Error prevention (legal, financial, data)"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
