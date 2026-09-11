@@ -1,0 +1,180 @@
+{
+  "glossary": [
+    {
+      "title": "Absente de la restitution (image de décoration)",
+      "body": "<p>L’image est déclarée « décorative » (par exemple dans Microsoft Office) ou « artefact » (Acrobat Pro), de telle sorte qu’elle ne fait pas partie du contenu mis à disposition pour la restitution.</p> "
+    },
+    {
+      "title": "Accolés (étiquette et champ accolés)",
+      "body": "<p>Il faut que l’étiquette et son champ soient visuellement proches de manière à ce que la relation entre les deux ne puisse pas prêter à confusion.</p> "
+    },
+    {
+      "title": "Alternative textuelle",
+      "body": "<p>Texte associé à une image ou une forme complexe qui apporte une information équivalente à celle véhiculée par l’image ou la forme complexe.</p> <p><strong>Note</strong> : l’alternative textuelle n’est pas nécessairement un texte qui décrit l’image ou la forme complexe. Elle a pour but de transmettre aux personnes qui ne peuvent voir l’image ou la forme complexe l’information essentielle qu’elle apporte sous forme de texte.</p> "
+    },
+    {
+      "title": "Champ de formulaire",
+      "body": "<p>Objet interactif permettant à l’utilisateur de saisir des données. Les champs de formulaire regroupent une grande variété de types de saisie :</p> <ul> <li>des champs de saisie libre,</li> <li>des cases à cocher ou des boutons radio,</li> <li>des listes de sélection,</li> <li>des champs spécifiques comme des champs de saisie de date, etc.</li> </ul> "
+    },
+    {
+      "title": "Contrôle de saisie",
+      "body": "<p>Ensemble des processus qui préviennent l’utilisateur :</p> <ul> <li>des champs obligatoires ou facultatifs,</li> <li>des indications de type ou de format attendus,</li> <li>des erreurs de saisie dans un formulaire.</li> </ul> "
+    },
+    {
+      "title": "Contenu clignotant ou en mouvement",
+      "body": "<p>Il s’agit généralement de contenu réalisé au moyen d’image animée (par exemple format GIF).</p> "
+    },
+    {
+      "title": "Contenu linéarisé",
+      "body": "<p>Ordre de restitution des contenus de tableau de présentation lorsque ces contenus sont parcourus cellule par cellule.</p> "
+    },
+    {
+      "title": "Contenu cryptique",
+      "body": "<p>Il s’agit de contenu écrit à l’aide de caractères détournés. Par exemple, des émoticônes ou des figures écrites avec des caractères sont considérées comme des contenus cryptiques. La syntaxe cryptique fait référence à des mots ou des phrases qui utilisent des caractères ou des effets de casse de manière inappropriée (<em lang=\"en\">leetspeak</em>) ou qui détournent des caractères de leurs usages habituels comme l’emploi de majuscule, de chiffres ou de caractères spéciaux dans le corps d’un mot. Enfin l’utilisation d’abréviations non conventionnelles (par exemple slt pour « salut ») est également considérée comme du contenu cryptique.</p> <p>Quelques exemples :</p> <ul> <li>émoticône : :), ^^, O_o ;</li> <li>syntaxe cryptique : m4gic (magique), ama (à mon avis).</li> </ul> <p><strong>Note</strong> : les « hashtags » (« #Emploi ») ou les URL (https://www.site.sample.com) ne sont pas considérés comme des contenus cryptiques.</p> "
+    },
+    {
+      "title": "Contexte du lien",
+      "body": "<p>Il s’agit d’informations complémentaires qui peuvent, par l’intermédiaire de raccourcis ou de manipulation au clavier, être associées à l’intitulé du lien.</p> <p>En environnement bureautique, les contextes exploitables sont :</p> <ul> <li>le titre précédent ;</li> <li>la phrase ou le paragraphe dans lequel le lien est présent ;</li> </ul> <p>Le lien sera considéré comme explicite lorsqu’au moins l’un de ces contextes apporte toutes les informations pour en comprendre la fonction et la destination.</p> "
+    },
+    {
+      "title": "Couleurs adjacentes",
+      "body": "<p>Couleur directement en contact avec les couleurs de l’élément graphique, comme la couleur d’arrière-plan ou toute autre couleur en jonction directe.</p> <p>Exemple : dans un panneau de « sens interdit », le rouge du panneau est la couleur adjacente au trait blanc au centre du panneau.</p> <p>Il est important de comprendre que le <a href=\"referentiel-technique.md#crit-2-3\">critère 2.3</a> sur les contrastes des éléments graphiques évalue uniquement les éléments non textuels. Dès qu’il s’agit d’évaluer le contraste d’un texte, même s’il est présent dans un élément graphique, c’est le <a href=\"referentiel-technique.md#crit-2-2\">critère 2.2</a> qui s’applique.</p> <p>Toutes les couleurs d’un élément graphique ne sont pas à évaluer. Seules les couleurs porteuses d’informations sont concernées.</p> <p>Par exemple, dans un graphique à secteurs (camembert), le rapport de contraste entre les couleurs adjacentes de chaque secteur et entre chaque couleur et la couleur de fond sont à évaluer si c’est le seul moyen de récupérer l’information.</p> <p>En revanche, si une légende donne sous forme de texte les valeurs et toutes les informations utiles de chaque secteur, le critère n’est plus applicable, puisque l’information est disponible par un autre moyen.</p> "
+    },
+    {
+      "title": "De décoration",
+      "body": "<p>Image ou forme complexe qui n’apporte aucune information essentielle à la compréhension du contenu auquel elle est associée.</p> "
+    },
+    {
+      "title": "Description détaillée",
+      "body": "<p>Contenu associé à une image ou à une forme complexe, en complément de son alternative, qui met à disposition la totalité de l’information contenue dans l’image ou la forme complexe.</p> <p>La description détaillée doit être adjacente à l’image ou la forme complexe ou consultable au moyen d’un lien adjacent.</p> "
+    },
+    {
+      "title": "Différents états d’un élément graphique",
+      "body": "<p>Quelquefois un élément graphique est présenté avec différents états. Par exemple, un système de vote associant des étoiles pour lequel le nombre d’étoiles d’une certaine couleur représente la valeur de la note attribuée. Il est important que le rapport de couleur entre la couleur par défaut et la couleur de chaque état soit suffisant.</p> "
+    },
+    {
+      "title": "Documents non balisés",
+      "body": "<p>Il s’agit de documents dans lesquels les éléments de structures (titre, liste, paragraphe, etc.) sont absents.</p> <p>Dans ce cas, le document doit être revu en profondeur ou recréé complètement.</p> <p>L’état du balisage peut être vérifié dans les propriétés du document : menu \"fichier\", puis sous-menu \"propriétés\", puis paramètre \"PDF balisé\", lorsque l’indication est \"non\" le document n’est pas balisé.</p> "
+    },
+    {
+      "title": "Durée d’activation",
+      "body": "<p>Durée d’activation d’un contenu clignotant ou en mouvement : durée pendant laquelle le clignotement ou le mouvement est actif.</p> "
+    },
+    {
+      "title": "Éléments de structure",
+      "body": "<p>Il s’agit des formats et des styles avec lesquels le contenu est structuré (titres, listes, paragraphes, etc.). Lorsque ces formats ou ces styles sont utilisés pour créer des effets de présentation, la restitution peut en être profondément impactée. Par exemple, utiliser un style de titre pour mettre en forme un paragraphe, utiliser des paragraphes pour créer des effets de marges, etc.</p> <p><strong>Note au sujet de l’utilisation des paragraphes</strong> : la présence d’un paragraphe vide après un contenu structuré, par exemple un titre, une liste, un paragraphe de texte en fin de page, n’est pas considérée comme une non-conformité. Seule l’utilisation de plusieurs paragraphes vides successifs est concernée.</p> "
+    },
+    {
+      "title": "En-tête (tableau)",
+      "body": "<p>Cellule qui sert d’intitulé à une colonne, une ligne, une partie de colonne, une partie de ligne ou des regroupements de lignes ou de colonnes (en-tête fusionné).</p> "
+    },
+    {
+      "title": "Étiquette",
+      "body": "<p>Texte associé à un champ de formulaire permettant d’identifier et de comprendre la nature de la saisie.</p> "
+    },
+    {
+      "title": "Étiquettes cohérentes",
+      "body": "<p>Les étiquettes de champs de formulaire présentes dans un même document et qui réclament la saisie d’une même information doivent être formulées sans ambiguïté pour que l’utilisateur comprenne que l’information qu’il doit communiquer est la même.</p> "
+    },
+    {
+      "title": "Forme complexe",
+      "body": "<p>Il s’agit des contenus comme des diagrammes ou des schémas créés par les outils de dessin, de génération de schéma et de diagramme proposés par les outils d’édition bureautique.</p> <p><strong>Note au sujet des outils de génération automatique de formes complexes</strong> : certains outils d’édition bureautique proposent des composants permettant de générer des schémas automatiques. Ces composants ne devraient pas être utilisés, car leur restitution n’est généralement pas satisfaisante. Une solution consiste à les remplacer par des images.</p> "
+    },
+    {
+      "title": "Formulaire non interactif",
+      "body": "<p>Il s’agit d’un document présentant les champs de formulaires sous la forme de simples zones graphiques, par exemple :</p> <p>Votre nom : [..........................]</p> <p>Ce type de document, qui simule en réalité un formulaire à imprimer, ne peut pas être utilisé correctement par les personnes handicapées.</p> <p>Dans ce cas, le document doit être recréé sous la forme d’un formulaire interactif.</p> "
+    },
+    {
+      "title": "Hiérarchie du titrage",
+      "body": "<p>Dans la plupart des logiciels d’édition bureautique, la bibliothèque de styles propose un style particulier pour chaque niveau de titre, généralement jusqu’à 6 niveaux.</p> <p>La hiérarchie du titrage est cohérente lorsque l’imbrication des niveaux de titres est cohérente (les niveaux d’imbrication des titres reflètent le niveau de dépendance des contenus les uns par rapport aux autres).</p> <p>Note : la présence de sauts hiérarchiques (par exemple, passage d’un titre de niveau 2 à un titre de niveau 4) n’invalide pas le critère, mais elle est déconseillée.</p> "
+    },
+    {
+      "title": "Indication donnée uniquement par la forme, la taille ou la position",
+      "body": "<p>Toute indication essentielle qui est transmise uniquement par un changement de forme ou de taille d’un contenu texte ou par la position d’un élément dans un texte.</p> <p>Par exemple :</p> <ul> <li>Indiquer dans une liste le caractère obligatoire des éléments par l’utilisation ou le positionnement d’un caractère spécial détourné de son usage (par exemple, un caractère mathématique).</li> <li>Indiquer dans un contenu un texte ou une partie de texte spécifique par la mise en gras ou un changement de taille.</li> </ul> <p>D’autres formes d’indication par la forme, la taille ou la position peuvent être utilisées sans qu’il soit possible de le renseigner ici.</p> "
+    },
+    {
+      "title": "Image texte ou texte en image",
+      "body": "<p>Image affichant du texte.</p> "
+    },
+    {
+      "title": "Information donnée uniquement par la couleur",
+      "body": "<p>Information transmise visuellement au moyen de la couleur. Par exemple :</p> <ul> <li>Dans une liste de documents, les documents en rouge ont un caractère obligatoire.</li> <li>Dans un graphique, les différentes données sont uniquement associées à une légende de couleur.</li> </ul> <p>Le moyen alternatif utilisé dépend de la nature des contenus concernés. Par exemple :</p> <ul> <li>L’association d’un texte explicite.</li> <li>L’association d’une indication visuelle comme une icône ou un symbole.</li> </ul> <p>Note : dans le cas de l’utilisation d’une image associée à un texte, l’image doit avoir une alternative pertinente (critères <a href=\"referentiel-technique.md#crit-1-1\">1.1</a> et <a href=\"referentiel-technique.md#crit-1-2\">1.2</a>).</p> "
+    },
+    {
+      "title": "Intitulé du lien",
+      "body": "<p>L’intitulé du lien peut être constitué :</p> <ul> <li>du texte du lien pour les liens texte ;</li> <li>de l’alternative de l’image pour les liens image ;</li> <li>de l’association du texte du lien et de l’alternative de l’image pour les liens composites ;</li> </ul> "
+    },
+    {
+      "title": "Légende",
+      "body": "<p>Texte qui contient des informations sur l’image ou la forme complexe à laquelle elle est associée. Par exemple des informations de copyright, de date, d’auteur, de lieu, des caractéristiques techniques, etc.</p> "
+    },
+    {
+      "title": "Lien",
+      "body": "<p>Un lien peut être de trois formes différentes :</p> <ul> <li>lien texte dont l’intitulé est constitué de texte seul ;</li> <li>lien image dont l’intitulé est constitué de l’alternative de l’image ;</li> <li>lien composite qui associe du texte et une image, l’intitulé est alors constitué du texte et de l’alternative de l’image.</li> </ul> "
+    },
+    {
+      "title": "Lien dont la nature n’est pas évidente",
+      "body": "<p>Lien qui peut être confondu avec un texte normal par certains utilisateurs ne percevant pas ou mal les couleurs, par exemple lorsqu’il est signalé uniquement par la couleur. Ainsi, dans ce texte « Nouveaux horaires d’été », si le mot « horaires » est un lien signalé uniquement par la couleur, sa nature peut être ignorée par les utilisateurs ne percevant pas la couleur et accédant au contenu CSS activé.</p> <p>Note : « signalé uniquement par la couleur » signifie que le lien n’est accompagné d’aucun marqueur visuel (icône, soulignement, bordure…). En conséquence, un lien de la même couleur que le texte environnant est concerné par ce critère.</p> <p><strong>Note importante</strong> : seuls les liens qui sont insérés dans des blocs de texte sont concernés.</p> "
+    },
+    {
+      "title": "Liens identiques",
+      "body": "<p>Liens dont les intitulés, associé au contexte du lien (titre précédent, phrase) sont identiques.</p> <p>Par exemple :</p> <ul> <li>Dans les deux phrases suivantes, les deux liens « cliquez ici » ne sont pas identiques, car ils bénéficient d’un contexte différent : « Pour consulter notre catalogue : cliquez ici » et « Pour nous contacter : cliquez ici ».</li> <li>Dans la phrase suivante, les deux liens « sur cette page » sont identiques, car le contexte ne permet pas de les différencier : « Vous pouvez nous contacter sur cette page ou sur cette page. »</li> </ul> "
+    },
+    {
+      "title": "Mécanisme de remplacement (contraste renforcé)",
+      "body": "<p>Méthode qui permet à l’utilisateur d’obtenir une version du document avec des contrastes suffisants.</p> <p>La version alternative peut être proposée sous la forme d’un document aux formats bureautique (DOCX, ODT, PDF) ou HTML.</p> <p>Le document alternatif doit être consultable à partir du document PDF original sous la forme d’un lien de téléchargement ou permettant d’afficher la page dans un navigateur lorsqu’il s’agit d’un document au format HTML.</p> "
+    },
+    {
+      "title": "Ordre de restitution",
+      "body": "<p>Dans un environnement bureautique, l’ordre de restitution est dicté par l’ordre dans lequel les contenus sont écrits. Néanmoins, certaines mauvaises pratiques peuvent perturber l’ordre dans lequel les contenus sont restitués.</p> <p>Par exemple :</p> <ul> <li>l’utilisation de la tabulation ou des espaces pour créer des effets de colonnage ;</li> <li>l’utilisation de fonctionnalités qui permettent de créer des zones de textes positionnées librement sur le contenu.</li> </ul> <p>La plupart des logiciels d’édition bureautique disposent de fonctionnalités pour gérer le colonnage, « ancrer » ou choisir un « habillage » pour lier la zone de contenu à un bloc de texte.</p> <p>Si elles ne sont pas utilisées, cela a pour effet de rendre l’ordre de restitution incohérent.</p> <p><strong>Note au sujet des outils d’insertion de zones de contenu</strong> : selon l’ancrage ou le style d’habillage choisi, la zone de texte sera positionnée avant ou après le bloc de contenu auquel elle est associée.</p> <p>Si la zone de texte et le bloc de contenu n’ont pas de relation logique, le critère sera considéré comme conforme indépendamment du positionnement visuel de la zone de texte et du bloc de contenu.</p> <p>À l’inverse, si la zone du texte et le bloc de contenu doivent être restitués dans un ordre particulier et que l’habillage ou l’ancrage ne respectent pas cet ordre, le critère sera non conforme.</p> <p>D’autres problèmes d’ordre de restitution peuvent être trouvés sans qu’il soit possible de les renseigner ici.</p> "
+    },
+    {
+      "title": "Ordre de tabulation",
+      "body": "<p>Ordre dans lequel les contenus sont parcourus avec la touche tabulation. Ce parcours peut devenir incohérent dans certaines situations, par exemple lorsque des éléments cliquables sont insérés dans des formes complexes ou des zones de textes et que ces dernières ne se présentent pas dans un ordre cohérent. De même, dans un formulaire PDF, l’ordre de tabulation des champs de saisie et des boutons peut présenter des incohérences lorsqu’ils sont mal positionnés.</p> "
+    },
+    {
+      "title": "Porteuse d’information",
+      "body": "<p>Image ou forme complexe qui contient au moins une information essentielle à la compréhension du contenu auquel elle est associée.</p> "
+    },
+    {
+      "title": "Référence explicite (à une légende d’image ou à une forme complexe)",
+      "body": "<p>Indication explicite (exemple : « Voir la légende ci-après ») ou terme commun (par exemple « Image : [alternative] » et « Image : [légende] ») entre l’alternative et la légende qui permet de comprendre que la légende est associée à l’image.</p> "
+    },
+    {
+      "title": "Style de titre",
+      "body": "<p>Dans les contenus bureautiques, les titres doivent être déclarés au moyen d’un style de titre. Par exemple, les logiciels d’édition bureautique fournissent une bibliothèque de styles réservée aux titres. Le recours à des styles de paragraphes spécifiques permet au logiciel de lecture d’associer chaque titre à un format balisé ad hoc.</p> "
+    },
+    {
+      "title": "Style de liste",
+      "body": "<p>Dans les contenus bureautiques, les listes doivent être déclarées au moyen d’un style de liste. Par exemple, les logiciels d’édition bureautique fournissent une bibliothèque de styles réservée aux listes non ordonnées (liste à puce) et aux listes ordonnées (liste numérotée). Le recours à des styles de liste spécifiques permet au logiciel de lecture d’associer chaque liste et ses items à un format ad hoc.</p> "
+    },
+    {
+      "title": "Tableau de données",
+      "body": "<p>Structure de contenu permettant d’afficher des informations en ligne et en colonne au moyen de cellule d’en-tête et de cellule de donnée.</p> "
+    },
+    {
+      "title": "Tableau de données complexe",
+      "body": "<p>Un tableau de données complexe est un tableau qui contient plus d’une ligne et/ou d’une colonne d’en-tête.</p> <p>Un tableau de données complexe ne peut pas être restitué correctement lorsqu’il est produit à partir d’un logiciel d’édition bureautique.</p> <p>Il est nécessaire de fournir une alternative sous forme de texte structuré contenant les mêmes informations.</p> "
+    },
+    {
+      "title": "Tableau de présentation",
+      "body": "<p>Tableau qui sert à afficher des informations au moyen des cellules sans que ces informations nécessitent la présence d’en-tête de ligne ou de colonne.</p> "
+    },
+    {
+      "title": "Texte en taille normale",
+      "body": "<p>Le texte et le texte en image en taille normale est inférieur à 150 % ou 120 % en gras de la taille par défaut.</p> <p>La taille par défaut est la taille du corps de texte.</p> "
+    },
+    {
+      "title": "Texte en taille agrandie",
+      "body": "<p>Le texte et le texte en image en taille agrandie est supérieur ou égal à 150 % ou 120 % en gras de la taille par défaut.</p> "
+    },
+    {
+      "title": "Titre de document",
+      "body": "<p>Métadonnée permettant de donner un titre au document, généralement renseigné dans les propriétés du document.</p> <p><strong>Note</strong> : le premier titre du contenu ou le titre de couverture n’est pas le titre du document.</p> "
+    },
+    {
+      "title": "Version alternative textuelle",
+      "body": "<p>Il s’agit d’un texte identique au contenu d’une image texte. La version alternative peut être mise à disposition par l’intermédiaire d’une ancre adjacente à l’image ou d’un lien permettant de consulter une version alternative du document dans lequel les images textes sont remplacées par du texte.</p> "
+    }
+  ]
+}
